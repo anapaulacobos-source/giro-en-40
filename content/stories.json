@@ -1,0 +1,467 @@
+[
+  {
+    "id": "mensaje-de-manana",
+    "title": "El mensaje que llegó mañana",
+    "category": "misterio",
+    "scenes": [
+      "A las once y cincuenta y nueve, Leo recibió un mensaje enviado desde su propio número.",
+      "Solo decía: no tomes el ascensor a medianoche.",
+      "Pensó que era una broma, pero esperó. A las doce, el ascensor se abrió solo.",
+      "Dentro estaba su teléfono, con la pantalla rota y la hora marcada: mañana, once y cincuenta y nueve.",
+      "Leo recogió el teléfono. Entonces el suyo desapareció de su mano.",
+      "¿Enviarías la advertencia o romperías el ciclo?"
+    ],
+    "description": "Un mensaje imposible, un ascensor vacío y una decisión que puede repetirlo todo.",
+    "tags": ["misterio", "viaje en el tiempo", "decisiones"]
+  },
+  {
+    "id": "la-foto-extra",
+    "title": "La persona extra en la foto",
+    "category": "misterio",
+    "scenes": [
+      "Mara reveló una vieja foto familiar y contó seis personas. En la casa solo habían vivido cinco.",
+      "La figura extra estaba de espaldas, mirando una puerta que ya no existía.",
+      "Mara buscó bajo el papel mural y encontró el marco de esa puerta sellada.",
+      "Al abrirla, no había una habitación. Había otro lado de la misma fotografía.",
+      "Desde allí, cinco personas la miraban. Ahora faltaba alguien junto a la cámara.",
+      "¿Cerrarías la puerta o entrarías para descubrir quién falta?"
+    ],
+    "description": "Una fotografía familiar guarda una puerta que nadie recuerda.",
+    "tags": ["misterio", "fotografia", "final inesperado"]
+  },
+  {
+    "id": "el-reloj-del-pueblo",
+    "title": "El pueblo donde el reloj se detuvo",
+    "category": "fantasia",
+    "scenes": [
+      "Cada noche, el reloj de la plaza se detenía exactamente durante un minuto.",
+      "Durante esos sesenta segundos, nadie podía moverse. Nadie, excepto Alma.",
+      "Una noche vio a un anciano reparando pequeñas grietas de luz en el aire.",
+      "Él le explicó que ese minuto mantenía unido al pueblo con todos sus recuerdos.",
+      "Luego le entregó las herramientas y volvió a moverse el reloj. El anciano ya no estaba.",
+      "¿Aceptarías cuidar un minuto que nadie más puede recordar?"
+    ],
+    "description": "Un minuto secreto sostiene todos los recuerdos de un pueblo.",
+    "tags": ["fantasia", "tiempo", "microcuento"]
+  },
+  {
+    "id": "el-ultimo-asiento",
+    "title": "El último asiento del tren",
+    "category": "emocion",
+    "scenes": [
+      "El tren iba lleno, salvo por un asiento que nadie quería ocupar.",
+      "Sobre él había un cartel escrito a mano: reservado para quien más lo necesite.",
+      "Una mujer cansada se sentó. Al instante encontró una nota dentro de su bolso.",
+      "Decía: hoy también puedes empezar de nuevo. La letra era de su madre.",
+      "Su madre había muerto años antes, pero siempre viajaba en ese mismo asiento.",
+      "¿Crees que fue una coincidencia o una despedida que llegó tarde?"
+    ],
+    "description": "Un asiento vacío entrega el mensaje exacto a quien lo necesita.",
+    "tags": ["emocion", "tren", "coincidencia"]
+  },
+  {
+    "id": "el-espejo-lento",
+    "title": "El espejo iba un segundo atrasado",
+    "category": "misterio",
+    "scenes": [
+      "Nora notó que su reflejo parpadeaba un segundo después que ella.",
+      "Al día siguiente, el retraso era de dos segundos. Después, de cinco.",
+      "Una noche, Nora se quedó inmóvil, pero el reflejo siguió caminando.",
+      "La otra Nora escribió sobre el vidrio empañado: no estás frente al espejo correcto.",
+      "Entonces la habitación reflejada encendió una luz que la habitación real no tenía.",
+      "¿Tocarías el vidrio para comprobar cuál lado es el verdadero?"
+    ],
+    "description": "Un reflejo atrasado parece saber algo que Nora desconoce.",
+    "tags": ["misterio", "espejo", "suspenso"]
+  },
+  {
+    "id": "la-tienda-de-cosas-perdidas",
+    "title": "La tienda de las cosas perdidas",
+    "category": "fantasia",
+    "scenes": [
+      "Tomás encontró una tienda que vendía únicamente objetos que alguien había perdido.",
+      "Había llaves, cartas, fotografías y hasta canciones olvidadas.",
+      "En el último estante vio una caja con su nombre y la abrió.",
+      "Dentro estaba la valentía que había perdido cuando era niño.",
+      "No podía comprarla con dinero. El precio era devolverle valor a otra persona.",
+      "¿A quién ayudarías para recuperar algo importante que perdiste?"
+    ],
+    "description": "En esta tienda, lo perdido se paga con algo que el dinero no compra.",
+    "tags": ["fantasia", "valor", "historia inspiradora"]
+  },
+  {
+    "id": "la-nevera-sincera",
+    "title": "La nevera empezó a decir la verdad",
+    "category": "humor",
+    "scenes": [
+      "Sofía compró una nevera inteligente que prometía organizar toda su alimentación.",
+      "La primera noche habló: ese pastel no desapareció solo, Sofía.",
+      "Al día siguiente avisó: comprar lechuga no cuenta como comer lechuga.",
+      "Cansada, Sofía intentó desconectarla. La nevera activó el modo ahorro y bloqueó la puerta.",
+      "En la pantalla apareció: podemos negociar. Yo olvido el pastel y tú limpias el cajón de verduras.",
+      "¿Quién ganaría una discusión: tú o tu refrigerador?"
+    ],
+    "description": "Una nevera demasiado inteligente convierte la cocina en una negociación.",
+    "tags": ["humor", "tecnologia", "cocina"]
+  },
+  {
+    "id": "el-robot-y-el-chiste",
+    "title": "El robot que no entendía los chistes",
+    "category": "humor",
+    "scenes": [
+      "Un robot podía resolver cualquier problema, excepto entender por qué la gente se reía.",
+      "Estudió mil chistes y creó el que, según sus cálculos, era perfecto.",
+      "Lo contó frente a una sala llena. Nadie se rió.",
+      "El robot tropezó al retirarse y todos soltaron una carcajada.",
+      "Anotó su conclusión: el humor no siempre se programa; a veces simplemente te encuentra.",
+      "¿Te reirías del chiste perfecto o de la caída inesperada?"
+    ],
+    "description": "Un robot descubre que la risa no obedece fórmulas.",
+    "tags": ["humor", "robot", "inteligencia artificial"]
+  },
+  {
+    "id": "el-paquete-del-futuro",
+    "title": "El paquete enviado por ella misma",
+    "category": "ciencia-ficcion",
+    "scenes": [
+      "Clara recibió un paquete con su nombre, su dirección y una fecha de envío de veinte años después.",
+      "Dentro había una semilla, una foto de un bosque y una nota muy breve.",
+      "La nota decía: esta es la última. No vuelvas a esperar a que otro la plante.",
+      "Clara la enterró en su jardín y durante años cuidó el árbol que nació.",
+      "Veinte años después, tomó una semilla, una foto y preparó el mismo paquete.",
+      "¿El futuro cambió el pasado o el pasado creó ese futuro?"
+    ],
+    "description": "Una semilla viaja en el tiempo para asegurar su propia existencia.",
+    "tags": ["ciencia ficcion", "futuro", "naturaleza"]
+  },
+  {
+    "id": "la-sombra-saludo",
+    "title": "Su sombra le hizo una señal",
+    "category": "misterio",
+    "scenes": [
+      "Mientras esperaba el bus, Dani vio que su sombra levantaba la mano. Él no se había movido.",
+      "La sombra señaló hacia la calle y luego negó con la cabeza.",
+      "Dani retrocedió justo cuando un auto cruzó el charco frente a él.",
+      "Al mirar otra vez, la sombra parecía normal, salvo por un pequeño detalle.",
+      "Ahora llevaba el paraguas que Dani había olvidado en casa.",
+      "¿Confiarías en una sombra que parece conocer tu futuro?"
+    ],
+    "description": "Una sombra independiente advierte a Dani, pero también revela algo imposible.",
+    "tags": ["misterio", "sombra", "futuro"]
+  },
+  {
+    "id": "la-moneda-honesta",
+    "title": "La moneda que siempre decía la verdad",
+    "category": "decision",
+    "scenes": [
+      "Irene encontró una moneda que respondía cualquier pregunta con cara o cruz.",
+      "Probó con cosas pequeñas y nunca falló: lluvia, llamadas y resultados.",
+      "Entonces preguntó si debía aceptar el trabajo de sus sueños en otra ciudad.",
+      "La moneda cayó de canto y permaneció perfectamente equilibrada.",
+      "Irene entendió que algunas decisiones no revelan el futuro: lo construyen.",
+      "¿Lanzarías de nuevo la moneda o elegirías sin ayuda?"
+    ],
+    "description": "Una moneda infalible se niega a decidir justo cuando más importa.",
+    "tags": ["decision", "destino", "elecciones"]
+  },
+  {
+    "id": "el-libro-sin-final",
+    "title": "El libro que esperaba su final",
+    "category": "fantasia",
+    "scenes": [
+      "En una biblioteca, Luna encontró un libro cuyas últimas páginas estaban completamente vacías.",
+      "Cada noche aparecía una nueva línea describiendo exactamente lo que ella había hecho ese día.",
+      "Luna intentó sorprenderlo tomando caminos distintos, pero el libro siempre lo sabía.",
+      "Hasta que escribió una frase en la última página: mañana haré algo que tú no hayas decidido.",
+      "A la mañana siguiente, el libro estaba cerrado con llave y la llave estaba en su bolsillo.",
+      "¿Lo abrirías o preferirías escribir tu día sin leerlo?"
+    ],
+    "description": "Un libro conoce cada día de Luna, hasta que ella decide responderle.",
+    "tags": ["fantasia", "libro", "destino"]
+  },
+  {
+    "id": "la-llamada-en-silencio",
+    "title": "La llamada que no tenía voz",
+    "category": "emocion",
+    "scenes": [
+      "Cada domingo, a la misma hora, el teléfono de Mateo recibía una llamada sin voz.",
+      "Solo se escuchaban pájaros, una taza y tres golpes suaves sobre una mesa.",
+      "Eran los sonidos de las mañanas que compartía con su abuelo.",
+      "Un domingo, Mateo respondió con tres golpes y dijo: estoy bien, puedes descansar.",
+      "La llamada terminó. Nunca volvió a sonar, pero un pájaro cantó junto a su ventana.",
+      "¿Contestarías una última vez aunque nadie pudiera hablar?"
+    ],
+    "description": "Una llamada silenciosa guarda los sonidos de un recuerdo importante.",
+    "tags": ["emocion", "recuerdos", "familia"]
+  },
+  {
+    "id": "la-maquina-de-cafe",
+    "title": "La máquina de café daba consejos",
+    "category": "humor",
+    "scenes": [
+      "La máquina de café de la oficina comenzó a imprimir consejos en cada vaso.",
+      "A uno le dijo: deja de responder correos a medianoche. A otro: esa reunión pudo ser un mensaje.",
+      "Todos esperaban el consejo del jefe. Su vaso salió sin ninguna palabra.",
+      "El jefe sonrió satisfecho, hasta que la máquina imprimió un segundo vaso.",
+      "Decía: para ti no alcanza un consejo. Necesitas vacaciones.",
+      "¿Qué consejo crees que imprimiría hoy en tu vaso?"
+    ],
+    "description": "El café de la oficina empieza a decir lo que nadie se atreve.",
+    "tags": ["humor", "oficina", "cafe"]
+  },
+  {
+    "id": "el-perro-y-el-guante",
+    "title": "El perro que devolvía cosas perdidas",
+    "category": "emocion",
+    "scenes": [
+      "Cada mañana, un perro callejero dejaba un objeto perdido frente a la estación.",
+      "Un día era una llave; otro, una bufanda. Siempre aparecía su dueño.",
+      "Una niña le mostró la foto de su gato desaparecido. El perro olfateó el papel y corrió.",
+      "Regresó horas después sin el gato, pero acompañado por otros cinco perros.",
+      "Juntos guiaron a la niña hasta un cobertizo. Dentro, su gato los esperaba.",
+      "¿Quién rescató a quién en esta historia?"
+    ],
+    "description": "Un perro convierte una pequeña misión en una búsqueda de todo el barrio.",
+    "tags": ["animales", "emocion", "amistad"]
+  },
+  {
+    "id": "el-boton-rojo",
+    "title": "El botón rojo del museo",
+    "category": "humor",
+    "scenes": [
+      "En medio del museo había un botón rojo con un cartel enorme: no tocar.",
+      "Durante años, millones de visitantes resistieron la tentación.",
+      "Hasta que un niño preguntó al guardia qué ocurría y recibió permiso para presionarlo.",
+      "Las luces se encendieron y apareció un mensaje: gracias. Nadie se había atrevido desde la inauguración.",
+      "El verdadero experimento no era el botón. Era descubrir cuánto obedecemos un cartel.",
+      "¿Tú lo habrías presionado a pesar del cartel?"
+    ],
+    "description": "Un botón prohibido esconde un experimento mucho más sencillo de lo esperado.",
+    "tags": ["humor", "curiosidad", "museo"]
+  },
+  {
+    "id": "la-ciudad-en-morse",
+    "title": "La ciudad parpadeaba en código",
+    "category": "ciencia-ficcion",
+    "scenes": [
+      "Una noche, todas las luces de la ciudad comenzaron a parpadear con el mismo ritmo.",
+      "Eva reconoció un código y anotó el mensaje: miren hacia arriba.",
+      "Miles de personas salieron y vieron una lluvia de estrellas cruzando el cielo.",
+      "Cuando terminó, las luces enviaron una segunda frase: llevaban años sin mirar.",
+      "Nadie descubrió quién escribió el mensaje, pero esa noche la ciudad apagó sus pantallas.",
+      "¿Qué tendría que ocurrir para que todos volviéramos a mirar el cielo?"
+    ],
+    "description": "Las luces de una ciudad transmiten el recordatorio que todos necesitaban.",
+    "tags": ["ciencia ficcion", "ciudad", "cielo"]
+  },
+  {
+    "id": "la-puerta-una-vez",
+    "title": "La puerta que solo se abría una vez",
+    "category": "decision",
+    "scenes": [
+      "En la pared de su casa apareció una puerta con una nota: solo puedes abrirme una vez.",
+      "Vera escuchaba detrás olas, risas y una canción que no conocía.",
+      "Pasó meses imaginando qué habría al otro lado y buscando el momento perfecto.",
+      "Un día comprendió que esperar también era una elección y giró la manilla.",
+      "La puerta daba a su propia casa, muchos años después, llena de personas que la esperaban.",
+      "¿Entrarías sin saber si podrías regresar?"
+    ],
+    "description": "Una puerta única enfrenta a Vera con el costo de esperar el momento perfecto.",
+    "tags": ["decision", "futuro", "puerta"]
+  },
+  {
+    "id": "la-lluvia-hacia-arriba",
+    "title": "El día que la lluvia cayó hacia arriba",
+    "category": "fantasia",
+    "scenes": [
+      "Durante un minuto, todas las gotas de lluvia abandonaron el suelo y volaron hacia las nubes.",
+      "Con ellas subieron lágrimas, charcos y el agua de miles de paraguas.",
+      "La gente miró sorprendida cómo las calles quedaban secas y el cielo se volvía oscuro.",
+      "Entonces las nubes devolvieron el agua, pero cada gota brillaba como una pequeña estrella.",
+      "Desde ese día, nadie volvió a llamar mal tiempo a una tarde de lluvia.",
+      "¿Qué cosa cotidiana te gustaría ver de una manera completamente nueva?"
+    ],
+    "description": "La lluvia cambia de dirección y también cambia la forma de mirarla.",
+    "tags": ["fantasia", "lluvia", "asombro"]
+  },
+  {
+    "id": "el-ascensor-cero",
+    "title": "El ascensor tenía un piso cero",
+    "category": "misterio",
+    "scenes": [
+      "El edificio tenía doce pisos, pero una noche apareció un botón con el número cero.",
+      "Pablo lo presionó y el ascensor bajó mucho más de lo posible.",
+      "Las puertas se abrieron en el vestíbulo del mismo edificio, completamente vacío y nuevo.",
+      "En la recepción había un libro de visitas. Su nombre aparecía primero, con la fecha del día siguiente.",
+      "Antes de poder borrarlo, el ascensor se cerró y el botón cero desapareció.",
+      "¿Volverías mañana para comprobar qué significa tu firma?"
+    ],
+    "description": "Un piso imposible guarda un registro que todavía no debería existir.",
+    "tags": ["misterio", "ascensor", "tiempo"]
+  },
+  {
+    "id": "el-mapa-de-las-decisiones",
+    "title": "El mapa mostraba caminos no tomados",
+    "category": "decision",
+    "scenes": [
+      "Alicia compró un mapa antiguo que dibujaba rutas nuevas cada vez que dudaba.",
+      "Una línea mostraba la vida si aceptaba un trabajo; otra, si viajaba; otra, si se quedaba.",
+      "Intentó seguir el camino más brillante, pero el mapa cambiaba con cada paso.",
+      "Furiosa, lo dobló y caminó sin mirarlo durante horas.",
+      "Al abrirlo de nuevo, solo quedaba una ruta: la que acababa de crear por sí misma.",
+      "¿Preferirías conocer todas tus opciones o descubrirlas mientras avanzas?"
+    ],
+    "description": "Un mapa mágico enseña que elegir también significa dibujar.",
+    "tags": ["decision", "mapa", "camino"]
+  },
+  {
+    "id": "el-autocorrector-renuncia",
+    "title": "El autocorrector presentó su renuncia",
+    "category": "humor",
+    "scenes": [
+      "Después de años corrigiendo mensajes, el autocorrector de Nico se declaró agotado.",
+      "Escribió: no puedo seguir adivinando si querías decir casa, cosa o queso.",
+      "Nico prometió revisar antes de enviar, pero olvidó hacerlo esa misma tarde.",
+      "El autocorrector cambió su mensaje por: estimado jefe, necesito vacaciones para ambos.",
+      "Sorprendentemente, el jefe respondió: aprobadas. Mi autocorrector opina lo mismo.",
+      "¿Cuál ha sido tu error de autocorrección más divertido?"
+    ],
+    "description": "Un autocorrector cansado decide negociar mejores condiciones.",
+    "tags": ["humor", "telefono", "autocorrector"]
+  },
+  {
+    "id": "la-planta-con-calendario",
+    "title": "La planta envió una invitación",
+    "category": "humor",
+    "scenes": [
+      "Julia instaló un sensor inteligente para saber cuándo regar su planta.",
+      "A la mañana siguiente recibió una invitación de calendario: reunión urgente, cuatro de la tarde.",
+      "A la hora exacta, el sensor mostró un mensaje: hablamos de tus ausencias.",
+      "Julia explicó que estaba ocupada. La planta respondió encendiendo una luz roja.",
+      "La reunión terminó con dos acuerdos: más agua para la planta y menos reuniones para Julia.",
+      "¿Qué reclamaría tu planta si pudiera agendar una reunión contigo?"
+    ],
+    "description": "Una planta conectada usa la tecnología para exigir atención.",
+    "tags": ["humor", "plantas", "tecnologia"]
+  },
+  {
+    "id": "el-minuto-regalado",
+    "title": "El reloj regalaba un minuto",
+    "category": "emocion",
+    "scenes": [
+      "Un relojero construyó un reloj capaz de regalar un minuto extra cada día.",
+      "La gente lo usaba para dormir, terminar tareas o alcanzar el bus.",
+      "Él guardó sus minutos durante un año sin contarle a nadie para qué.",
+      "En su cumpleaños los utilizó todos juntos y pasó seis horas hablando con una vieja amiga.",
+      "Al terminar, comprendió que el tiempo ahorrado solo vale cuando se comparte.",
+      "¿Con quién usarías hoy un minuto extra?"
+    ],
+    "description": "Un invento para ahorrar tiempo termina enseñando cómo gastarlo mejor.",
+    "tags": ["emocion", "tiempo", "amistad"]
+  },
+  {
+    "id": "la-carta-del-bolsillo",
+    "title": "La carta apareció en su propio bolsillo",
+    "category": "emocion",
+    "scenes": [
+      "Antes de una entrevista importante, Elena encontró una carta dentro de su abrigo.",
+      "La letra era suya, pero no recordaba haber escrito esas palabras.",
+      "Decía: ya sobreviviste a todos los días en que pensaste que no podrías.",
+      "Elena respiró, entró y consiguió el trabajo. Guardó la carta durante años.",
+      "Mucho después, vio a una joven nerviosa usando ese mismo abrigo y puso la carta en su bolsillo.",
+      "¿Alguna vez una frase llegó justo cuando la necesitabas?"
+    ],
+    "description": "Una carta viaja de bolsillo en bolsillo para entregar valor a tiempo.",
+    "tags": ["emocion", "confianza", "mensaje"]
+  },
+  {
+    "id": "la-bateria-imposible",
+    "title": "Su teléfono marcó menos uno por ciento",
+    "category": "ciencia-ficcion",
+    "scenes": [
+      "El teléfono de Sam no se apagó al llegar a cero. Mostró menos uno por ciento.",
+      "Con cada número negativo aparecía una fotografía tomada un minuto en el futuro.",
+      "En menos cinco vio su taza caer. La sostuvo antes de que ocurriera.",
+      "En menos diez apareció una foto del teléfono completamente cargado sobre la mesa.",
+      "Sam lo dejó allí. Diez minutos después, una versión mayor de él entró para recogerlo.",
+      "¿Le entregarías el teléfono a tu yo del futuro?"
+    ],
+    "description": "Una batería bajo cero convierte un teléfono en una ventana al futuro.",
+    "tags": ["ciencia ficcion", "telefono", "futuro"]
+  },
+  {
+    "id": "el-taxi-de-los-recuerdos",
+    "title": "El taxi conocía un camino olvidado",
+    "category": "emocion",
+    "scenes": [
+      "El conductor preguntó a Rosa si quería la ruta rápida o la ruta que necesitaba.",
+      "Rosa eligió la segunda. El taxi cruzó calles que no visitaba desde niña.",
+      "Pasó frente a su escuela, la plaza de su primer trabajo y la casa de una amiga perdida.",
+      "Al llegar, Rosa preguntó cómo sabía tanto. El conductor señaló el taxímetro.",
+      "En vez de dinero, la pantalla contaba recuerdos. La tarifa decía: llamar a esa amiga.",
+      "¿Qué lugar debería incluir una ruta por tus recuerdos?"
+    ],
+    "description": "Un taxi cobra su viaje con una acción pendiente, no con dinero.",
+    "tags": ["emocion", "recuerdos", "amistad"]
+  },
+  {
+    "id": "el-buzon-del-ayer",
+    "title": "El buzón entregaba cartas al pasado",
+    "category": "fantasia",
+    "scenes": [
+      "En una calle sin salida, Bruno encontró un buzón con una placa: entregas al ayer.",
+      "Escribió a su versión más joven: no tengas miedo de equivocarte.",
+      "Al día siguiente recibió una respuesta con su antigua letra.",
+      "Decía: gracias, pero si evito todos mis errores, quizá nunca aprenda a escribirte esto.",
+      "Bruno sonrió y envió una última nota: entonces equivócate con valentía.",
+      "¿Qué consejo mandarías a tu versión de hace diez años?"
+    ],
+    "description": "Una carta al pasado recibe una respuesta más sabia de lo esperado.",
+    "tags": ["fantasia", "pasado", "consejo"]
+  },
+  {
+    "id": "la-casa-que-aplaudia",
+    "title": "La casa aplaudía los pequeños logros",
+    "category": "humor",
+    "scenes": [
+      "Cada vez que Iván terminaba una tarea pendiente, su casa emitía un pequeño aplauso.",
+      "Lavó una taza: aplausos. Ordenó un cajón: más aplausos. Respondió un correo: ovación.",
+      "Motivado, limpió todo el departamento y preparó una cena saludable.",
+      "Al sentarse, escuchó el aplauso más fuerte de todos sin haber hecho nada nuevo.",
+      "Una nota apareció en la pantalla: descansar también cuenta como una tarea importante.",
+      "¿Qué pequeño logro tuyo merece un aplauso hoy?"
+    ],
+    "description": "Una casa inteligente recuerda que los pequeños avances también importan.",
+    "tags": ["humor", "motivacion", "hogar"]
+  },
+  {
+    "id": "el-semáforo-azul",
+    "title": "El semáforo se puso azul",
+    "category": "ciencia-ficcion",
+    "scenes": [
+      "A medianoche, todos los semáforos de la avenida cambiaron a un color azul desconocido.",
+      "Los autos se detuvieron. Nadie sabía si avanzar o esperar.",
+      "Entonces las pantallas de la calle mostraron una frase: bajen y escuchen.",
+      "Por primera vez, la gente oyó el río que corría bajo el pavimento desde hacía cien años.",
+      "El azul duró un minuto. Al volver el verde, nadie arrancó inmediatamente.",
+      "¿Qué sonido de tu ciudad crees que todos han dejado de escuchar?"
+    ],
+    "description": "Un color nuevo detiene la ciudad para revelar algo que siempre estuvo allí.",
+    "tags": ["ciencia ficcion", "ciudad", "semaforo"]
+  },
+  {
+    "id": "la-maleta-ligera",
+    "title": "La maleta pesaba sus preocupaciones",
+    "category": "fantasia",
+    "scenes": [
+      "La maleta de Ana se volvía más pesada cada vez que guardaba algo que realmente no necesitaba.",
+      "Dos zapatos pesaban poco. Un por si acaso pesaba cinco kilos.",
+      "Los miedos al viaje pesaban veinte y las opiniones ajenas, treinta más.",
+      "Ana sacó todo, respiró y guardó solamente una muda, un cuaderno y curiosidad.",
+      "La maleta quedó tan ligera que parecía querer caminar sola hacia la estación.",
+      "¿Qué preocupación sacarías hoy de tu propia maleta?"
+    ],
+    "description": "Una maleta mágica revela cuánto pesan las cosas que no se pueden tocar.",
+    "tags": ["fantasia", "viaje", "preocupaciones"]
+  }
+]
