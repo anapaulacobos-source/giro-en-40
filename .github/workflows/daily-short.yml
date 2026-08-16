@@ -3,8 +3,7 @@ name: Short diario — Giro en 40
 on:
   workflow_dispatch:
   schedule:
-    - cron: "5 8 * * *"
-      timezone: "America/Santiago"
+    - cron: "5 12 * * *"
 
 permissions:
   contents: write
