@@ -1,1 +1,66 @@
+name: Short diario — Giro en 40
 
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "5 8 * * *"
+      timezone: "America/Santiago"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: giro-en-40-diario
+  cancel-in-progress: false
+
+jobs:
+  crear:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+
+    env:
+      VOICE: ${{ vars.VOICE || 'es-MX-DaliaNeural' }}
+      VOICE_RATE: ${{ vars.VOICE_RATE || '+8%' }}
+      UPLOAD_TO_YOUTUBE: ${{ vars.UPLOAD_TO_YOUTUBE || 'false' }}
+      YOUTUBE_PRIVACY: ${{ vars.YOUTUBE_PRIVACY || 'private' }}
+      YOUTUBE_CLIENT_ID: ${{ secrets.YOUTUBE_CLIENT_ID }}
+      YOUTUBE_CLIENT_SECRET: ${{ secrets.YOUTUBE_CLIENT_SECRET }}
+      YOUTUBE_REFRESH_TOKEN: ${{ secrets.YOUTUBE_REFRESH_TOKEN }}
+      GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+      GEMINI_MODEL: ${{ vars.GEMINI_MODEL || 'gemini-2.5-flash-lite' }}
+
+    steps:
+      - name: Descargar proyecto
+        uses: actions/checkout@v7
+
+      - name: Preparar Python
+        uses: actions/setup-python@v7
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Instalar herramientas
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y ffmpeg fonts-dejavu-core espeak-ng
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Generar video
+        run: python src/daily.py --output output
+
+      - name: Guardar video para descargar
+        uses: actions/upload-artifact@v7
+        with:
+          name: short-${{ github.run_number }}
+          path: output/
+          retention-days: 14
+
+      - name: Registrar historia utilizada
+        run: |
+          git config user.name "giro-en-40-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add state/used.json
+          if [ -d content/generated ]; then git add content/generated/; fi
+          git diff --cached --quiet || git commit -m "Registrar Short diario"
+          git push
