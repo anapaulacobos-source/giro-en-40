@@ -3,7 +3,8 @@
     "mensaje-de-manana",
     "la-foto-extra",
     "el-reloj-del-pueblo",
-    "mundo-parece-inventado"
+    "mundo-parece-inventado",
+    "oceanos-secretos"
   ],
   "uploads": [
     {
@@ -13,6 +14,10 @@
     {
       "story_id": "mundo-parece-inventado",
       "video_id": "KBQr3NBWVhY"
+    },
+    {
+      "story_id": "oceanos-secretos",
+      "video_id": "Vzu_h4zk0dE"
     }
   ]
 }
