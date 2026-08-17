@@ -1,18 +1,17 @@
 {
-  "brand": "GIRO EN 40",
-  "series_label": "MICROHISTORIA ORIGINAL",
-  "voice": "es-MX-DaliaNeural",
-  "voice_rate": "+8%",
+  "brand": "CURIOSIDADES MUNDIALES",
+  "series_label": "5 DATOS EN UN MINUTO",
+  "voice": "es-CL-CatalinaNeural",
+  "voice_rate": "-2%",
   "width": 1080,
   "height": 1920,
   "fps": 30,
   "category_id": "24",
   "default_tags": [
     "shorts",
-    "microhistoria",
-    "historia corta",
-    "final inesperado",
-    "ficcion"
+    "curiosidades",
+    "datos curiosos",
+    "aprende en un minuto",
+    "curiosidades mundiales"
   ]
 }
-
