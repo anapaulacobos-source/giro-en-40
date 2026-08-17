@@ -53,19 +53,28 @@ def validate_story(story: dict[str, Any]) -> None:
         raise ValueError("La última escena debe ser una pregunta.")
     if len(story["title"]) > 82:
         raise ValueError("El título es demasiado largo.")
+    visual_queries = story.get("visual_queries")
+    if visual_queries is not None and (
+        not isinstance(visual_queries, list)
+        or len(visual_queries) != len(story["scenes"])
+        or any(not isinstance(query, str) or not query.strip() for query in visual_queries)
+    ):
+        raise ValueError("visual_queries debe contener una búsqueda por cada escena.")
 
 
 def _gemini_prompt(existing: list[dict[str, Any]]) -> str:
     recent = "\n".join(f"- {x['title']}: {x['scenes'][0]}" for x in existing[-18:])
-    return f"""Crea UNA microhistoria de ficción original en español neutro para un YouTube Short de 35 a 50 segundos.
+    return f"""Crea UN guion de curiosidades verificables en español neutro para un YouTube Short de 45 a 60 segundos.
 
-Audiencia: general, no específicamente infantil. Estilo: visual, sorprendente, cálido o intrigante, apto para anunciantes. Puede ser misterio suave, humor, emoción, fantasía, decisiones o ciencia ficción. Debe tener un giro claro, pero no uses violencia, crimen, sexo, política, salud, dinero fácil, personas reales, tragedias ni terror fuerte.
+Audiencia general, no específicamente infantil. Elige una temática entre curiosidades, ciencia, historia, animales, tecnología, deportes, lujo o misterios arqueológicos. Usa datos estables y ampliamente documentados; evita noticias, récords o precios que puedan cambiar, afirmaciones médicas, política, violencia, tragedias, personas reales vivas y promesas económicas. La primera escena debe prometer cinco datos; las cinco siguientes contienen un dato cada una; la última es una pregunta para comentarios.
 
 Entrega exclusivamente un objeto JSON válido con esta forma exacta:
 {{
   "title": "máximo 70 caracteres",
-  "category": "misterio|humor|emocion|fantasia|decision|ciencia-ficcion",
-  "scenes": ["6 escenas; cada una entre 10 y 23 palabras; la primera es un gancho; la sexta es una pregunta para comentarios y termina en ?"],
+  "category": "curiosidades|ciencia|historia|animales|tecnologia|deportes|lujo|misterios",
+  "format": "curiosity_list",
+  "scenes": ["7 escenas; cada una entre 9 y 25 palabras; la primera es un gancho; la séptima es una pregunta y termina en ?"],
+  "visual_queries": ["7 búsquedas visuales concretas en inglés, una por escena, sin nombres de marcas"],
   "description": "una frase sin hashtags",
   "tags": ["3 a 5 etiquetas breves"]
 }}
@@ -110,6 +119,7 @@ def _generate_with_gemini(existing: list[dict[str, Any]]) -> dict[str, Any]:
         raise RuntimeError(f"Gemini devolvió HTTP {exc.code}: {detail}") from exc
     text = result["candidates"][0]["content"]["parts"][0]["text"].strip()
     story = json.loads(text)
+    story["format"] = "curiosity_list"
     story["id"] = f"auto-{_slug(story['title'])}-{hashlib.sha1(text.encode()).hexdigest()[:6]}"
     validate_story(story)
 
@@ -147,4 +157,3 @@ def mark_used(story_id: str, video_id: str | None = None) -> None:
         state.setdefault("uploads", []).append({"story_id": story_id, "video_id": video_id})
     STATE_FILE.parent.mkdir(parents=True, exist_ok=True)
     STATE_FILE.write_text(json.dumps(state, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
-

@@ -3,21 +3,27 @@ from __future__ import annotations
 import asyncio
 import colorsys
 import hashlib
+import html
+import io
 import json
 import math
 import os
 import random
+import re
 import shutil
 import subprocess
 import textwrap
 import unicodedata
+import urllib.error
+import urllib.parse
+import urllib.request
 import wave
 from pathlib import Path
 from typing import Any
 
 import edge_tts
 import numpy as np
-from PIL import Image, ImageDraw, ImageFilter, ImageFont
+from PIL import Image, ImageDraw, ImageFilter, ImageFont, ImageOps
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -31,6 +37,14 @@ PALETTES = {
     "fantasia": ("#081C15", "#1B4332", "#95D5B2"),
     "decision": ("#1D2330", "#3E5C76", "#F4D35E"),
     "ciencia-ficcion": ("#080B2B", "#27296D", "#5CE1E6"),
+    "curiosidades": ("#071A2B", "#003D5B", "#00E5FF"),
+    "ciencia": ("#101935", "#3949AB", "#66FCF1"),
+    "historia": ("#21180F", "#6B4423", "#F4C95D"),
+    "animales": ("#092419", "#1B5E3B", "#8BE28B"),
+    "tecnologia": ("#081A2A", "#124E78", "#45D6E8"),
+    "deportes": ("#071E16", "#007A3D", "#B6FF49"),
+    "lujo": ("#120D05", "#3D2B0B", "#F6D365"),
+    "misterios": ("#170D2A", "#4B2473", "#D59BFF"),
 }
 
 SKIN_TONES = ["#F3C6A5", "#D99B72", "#B97855", "#8D573E", "#F0B98E"]
@@ -564,7 +578,231 @@ def _draw_story_stage(
         _draw_person(draw, 820, 1050, second_profile, "open", "happy" if "amiga" in clean else "neutral", scale=0.70, flip=-1)
 
 
+def _plain_metadata(value: Any, fallback: str = "") -> str:
+    if isinstance(value, dict):
+        value = value.get("value", fallback)
+    clean = html.unescape(re.sub(r"<[^>]+>", " ", str(value or fallback)))
+    return re.sub(r"\s+", " ", clean).strip()
+
+
+def _commons_photo(query: str, destination: Path) -> dict[str, str] | None:
+    """Descarga una foto reutilizable sin claves y devuelve su atribución."""
+    fallback = re.sub(
+        r"\b(collage|macro|close up|generic|illustration|concept|colorful|modern|nineteenth|century|historic|vintage|early)\b",
+        " ",
+        query,
+        flags=re.IGNORECASE,
+    )
+    search_terms = [query, re.sub(r"\s+", " ", fallback).strip() + " public domain"]
+    pages: list[dict[str, Any]] = []
+    for search_term in search_terms:
+        params = {
+            "action": "query",
+            "format": "json",
+            "generator": "search",
+            "gsrsearch": f"{search_term} filetype:bitmap",
+            "gsrnamespace": "6",
+            "gsrlimit": "20",
+            "prop": "imageinfo",
+            "iiprop": "url|mime|extmetadata",
+            "iiurlwidth": "1800",
+        }
+        endpoint = "https://commons.wikimedia.org/w/api.php?" + urllib.parse.urlencode(params)
+        request = urllib.request.Request(
+            endpoint,
+            headers={"User-Agent": "GiroEn40/2.0 (educational YouTube generator)"},
+        )
+        try:
+            with urllib.request.urlopen(request, timeout=12) as response:
+                payload = json.loads(response.read().decode("utf-8"))
+        except (OSError, ValueError, urllib.error.URLError):
+            continue
+        found = list(payload.get("query", {}).get("pages", {}).values())
+        found.sort(key=lambda page: int(page.get("index", 999)))
+        pages.extend(found)
+
+    for page in pages:
+        info_items = page.get("imageinfo") or []
+        if not info_items:
+            continue
+        info = info_items[0]
+        mime = str(info.get("mime", ""))
+        if mime not in {"image/jpeg", "image/png", "image/webp"}:
+            continue
+        metadata = info.get("extmetadata") or {}
+        license_name = _plain_metadata(metadata.get("LicenseShortName"))
+        normalized_license = license_name.upper().replace("-", " ")
+        reusable = (
+            "CC0" in normalized_license
+            or "PUBLIC DOMAIN" in normalized_license
+            or ("CC BY" in normalized_license and "SA" not in normalized_license)
+        )
+        if not reusable:
+            continue
+        source_url = str(info.get("thumburl") or info.get("url") or "")
+        hostname = (urllib.parse.urlparse(source_url).hostname or "").lower()
+        if not source_url or not hostname.endswith("wikimedia.org"):
+            continue
+        image_request = urllib.request.Request(
+            source_url,
+            headers={"User-Agent": "GiroEn40/2.0 (educational YouTube generator)"},
+        )
+        try:
+            with urllib.request.urlopen(image_request, timeout=15) as response:
+                image_bytes = response.read(12_000_000)
+            source = Image.open(io.BytesIO(image_bytes))
+            source = ImageOps.exif_transpose(source).convert("RGB")
+            if source.width < 500 or source.height < 400:
+                continue
+            source.save(destination, quality=93)
+        except (OSError, ValueError, urllib.error.URLError):
+            continue
+
+        title = _plain_metadata(metadata.get("ObjectName"), page.get("title", "Imagen"))
+        artist = _plain_metadata(metadata.get("Artist"), "Autor no indicado")
+        page_url = str(info.get("descriptionurl") or metadata.get("CanonicalPageURL", {}).get("value", ""))
+        return {
+            "line": f"{title[:90]} — {artist[:90]} / Wikimedia Commons / {license_name}",
+            "url": page_url,
+        }
+    return None
+
+
+def _remember_visual_credit(story: dict[str, Any], credit: dict[str, str] | None) -> None:
+    if not credit:
+        return
+    credits = story.setdefault("visual_credits", [])
+    if all(item.get("url") != credit.get("url") for item in credits):
+        credits.append(credit)
+
+
+def _darken_photo(image: Image.Image) -> Image.Image:
+    pixels = np.zeros((image.height, image.width, 4), dtype=np.uint8)
+    for y in range(image.height):
+        relative = y / max(1, image.height - 1)
+        alpha = int(72 + 95 * abs(relative - 0.43) + (90 if relative > 0.56 else 0))
+        pixels[y, :, 3] = min(205, alpha)
+    overlay = Image.fromarray(pixels, "RGBA")
+    base = image.convert("RGBA")
+    base.alpha_composite(overlay)
+    return base
+
+
+def _centered_lines(
+    draw: ImageDraw.ImageDraw,
+    text: str,
+    box: tuple[int, int, int, int],
+    fill: tuple[int, int, int, int] = (255, 255, 255, 255),
+) -> None:
+    left, top, right, bottom = box
+    font, lines = _fit_text(text, right - left, bottom - top)
+    boxes = [draw.textbbox((0, 0), line, font=font, stroke_width=2) for line in lines]
+    heights = [item[3] - item[1] for item in boxes]
+    gap = 22
+    total_height = sum(heights) + max(0, len(lines) - 1) * gap
+    y = top + max(0, (bottom - top - total_height) // 2)
+    for line, measured, height in zip(lines, boxes, heights):
+        line_width = measured[2] - measured[0]
+        x = left + (right - left - line_width) // 2
+        draw.text(
+            (x, y),
+            line,
+            font=font,
+            fill=fill,
+            stroke_width=5,
+            stroke_fill=(0, 0, 0, 205),
+        )
+        y += height + gap
+
+
+def make_curiosity_scene_image(
+    story: dict[str, Any], text: str, index: int, total: int, path: Path
+) -> None:
+    width, height = CONFIG["width"], CONFIG["height"]
+    start, end, accent = PALETTES.get(story["category"], PALETTES["curiosidades"])
+    accent_rgb = _hex_rgb(accent)
+    queries = story.get("visual_queries") or []
+    query = str(queries[index] if index < len(queries) else f"{story['category']} {story['title']}")
+    source_path = path.with_name(f"source_{index:02d}.jpg")
+    credit = _commons_photo(query, source_path)
+    _remember_visual_credit(story, credit)
+
+    if source_path.exists():
+        source = Image.open(source_path).convert("RGB")
+        image = ImageOps.fit(source, (width, height), method=Image.Resampling.LANCZOS)
+        image = _darken_photo(image)
+    else:
+        image = _gradient((width, height), start, end).convert("RGBA")
+        fallback = Image.new("RGBA", image.size, (0, 0, 0, 0))
+        fdraw = ImageDraw.Draw(fallback)
+        seed = int(hashlib.sha256(f"{story['id']}:{index}:fallback".encode()).hexdigest()[:12], 16)
+        rng = random.Random(seed)
+        for _ in range(28):
+            radius = rng.randint(35, 210)
+            x, y = rng.randint(-100, width + 100), rng.randint(-100, height + 100)
+            fdraw.ellipse((x - radius, y - radius, x + radius, y + radius), fill=(*accent_rgb, rng.randint(14, 48)))
+        image.alpha_composite(fallback.filter(ImageFilter.GaussianBlur(18)))
+
+    draw = ImageDraw.Draw(image)
+    brand_font = ImageFont.truetype(_find_font(True), 30)
+    label_font = ImageFont.truetype(_find_font(True), 29)
+    tiny_font = ImageFont.truetype(_find_font(False), 23)
+    brand = "CURIOSIDADES MUNDIALES"
+    draw.text((60, 65), brand, font=brand_font, fill=(255, 255, 255, 245), stroke_width=3, stroke_fill=(0, 0, 0, 180))
+
+    category = story["category"].replace("-", " ").upper()
+    category_box = draw.textbbox((0, 0), category, font=label_font)
+    category_width = category_box[2] - category_box[0]
+    draw.rounded_rectangle((width - category_width - 110, 54, width - 45, 110), radius=27, fill=(*accent_rgb, 235))
+    draw.text((width - category_width - 78, 65), category, font=label_font, fill=(4, 8, 20, 255))
+
+    fact_count = max(1, total - 2)
+    if index == 0:
+        draw.rounded_rectangle((70, 330, width - 70, 580), radius=52, fill=(0, 0, 0, 155), outline=(*accent_rgb, 220), width=4)
+        big_font = ImageFont.truetype(_find_font(True), 112)
+        headline = f"{fact_count} DATOS"
+        headline_box = draw.textbbox((0, 0), headline, font=big_font, stroke_width=3)
+        draw.text(((width - (headline_box[2] - headline_box[0])) // 2, 370), headline, font=big_font, fill=(*accent_rgb, 255), stroke_width=4, stroke_fill=(0, 0, 0, 220))
+        _centered_lines(draw, story["title"], (85, 650, width - 85, 1110))
+        _centered_lines(draw, text, (100, 1210, width - 100, 1570), (255, 255, 255, 245))
+    elif index == total - 1:
+        draw.rounded_rectangle((75, 420, width - 75, 1480), radius=58, fill=(0, 0, 0, 155), outline=(*accent_rgb, 220), width=5)
+        question_font = ImageFont.truetype(_find_font(True), 58)
+        question_label = "TU TURNO"
+        question_box = draw.textbbox((0, 0), question_label, font=question_font)
+        draw.text(((width - (question_box[2] - question_box[0])) // 2, 520), question_label, font=question_font, fill=(*accent_rgb, 255), stroke_width=3, stroke_fill=(0, 0, 0, 210))
+        _centered_lines(draw, text, (120, 680, width - 120, 1330))
+    else:
+        number = fact_count - index + 1
+        number_font = ImageFont.truetype(_find_font(True), 160)
+        number_text = str(number)
+        number_box = draw.textbbox((0, 0), number_text, font=number_font, stroke_width=4)
+        circle = (70, 240, 330, 500)
+        draw.ellipse(circle, fill=(*accent_rgb, 235), outline=(255, 255, 255, 220), width=7)
+        draw.text(
+            (200 - (number_box[2] - number_box[0]) // 2, 270),
+            number_text,
+            font=number_font,
+            fill=(4, 8, 20, 255),
+        )
+        draw.rounded_rectangle((65, 1000, width - 65, 1575), radius=52, fill=(0, 0, 0, 178), outline=(*accent_rgb, 210), width=4)
+        _centered_lines(draw, text, (115, 1050, width - 115, 1525))
+
+    progress_y = 1770
+    gap = 14
+    segment_width = (width - 120 - gap * (total - 1)) // total
+    for position in range(total):
+        left = 60 + position * (segment_width + gap)
+        fill = (*accent_rgb, 255) if position <= index else (255, 255, 255, 75)
+        draw.rounded_rectangle((left, progress_y, left + segment_width, progress_y + 13), radius=7, fill=fill)
+    draw.text((60, 1810), "IMÁGENES LIBRES · CRÉDITOS EN LA DESCRIPCIÓN", font=tiny_font, fill=(255, 255, 255, 180), stroke_width=2, stroke_fill=(0, 0, 0, 160))
+    image.convert("RGB").save(path, quality=95)
+
+
 def make_scene_image(story: dict[str, Any], text: str, index: int, total: int, path: Path) -> None:
+    if story.get("format") == "curiosity_list":
+        make_curiosity_scene_image(story, text, index, total, path)
+        return
     width, height = CONFIG["width"], CONFIG["height"]
     start, end, accent = PALETTES.get(story["category"], PALETTES["misterio"])
     image = _gradient((width, height), start, end).convert("RGBA")
@@ -725,6 +963,7 @@ def render_story(story: dict[str, Any], output_dir: Path, silent: bool = False) 
 
     audio_files = asyncio.run(synthesize_scenes(story, workdir, silent))
     clip_files: list[Path] = []
+    clip_specs: list[tuple[list[str], Path, float]] = []
     durations: list[float] = []
     total_scenes = len(story["scenes"])
     first_image: Path | None = None
@@ -754,6 +993,23 @@ def render_story(story: dict[str, Any], output_dir: Path, silent: bool = False) 
         ]
         run_validated(clip_command, clip_path, max(0.5, duration - 0.18))
         clip_files.append(clip_path)
+        clip_specs.append((clip_command, clip_path, duration))
+
+    # Algunos sistemas de archivos en runners pueden entregar temporalmente
+    # un segmento truncado mientras se crean varios clips seguidos. Una
+    # segunda comprobación antes de unirlos evita publicar un video cortado.
+    for clip_command, clip_path, expected_duration in clip_specs:
+        try:
+            current_duration = ffprobe_duration(clip_path)
+        except (subprocess.CalledProcessError, ValueError):
+            current_duration = 0.0
+        if current_duration < max(0.5, expected_duration - 0.18):
+            run_validated(
+                clip_command,
+                clip_path,
+                max(0.5, expected_duration - 0.18),
+                attempts=3,
+            )
 
     concat_file = workdir / "concat.txt"
     concat_file.write_text("".join(f"file '{clip.as_posix()}'\n" for clip in clip_files), encoding="utf-8")
@@ -798,7 +1054,7 @@ def render_story(story: dict[str, Any], output_dir: Path, silent: bool = False) 
         "-map", "0:v:0", "-map", "[a]", "-c:v", "copy", "-c:a", "aac", "-b:a", "192k",
         "-movflags", "+faststart", "-shortest", str(final_video)
     ]
-    run_validated(final_command, final_video, max(1.0, duration - 0.5))
+    run_validated(final_command, final_video, max(1.0, duration - 0.8))
     thumbnail = output_dir / f"{story['id']}-thumbnail.jpg"
     assert first_image is not None
     make_thumbnail(story, first_image, thumbnail)

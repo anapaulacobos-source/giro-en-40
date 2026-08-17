@@ -40,9 +40,23 @@ def upload_video(video_path: Path, story: dict[str, Any], config: dict[str, Any]
     title = f"{story['title']} #Shorts"[:100]
     description = (
         f"{story['description']}\n\n"
-        "Microhistoria de ficción original. ¿Qué habrías hecho tú? Cuéntalo en los comentarios.\n\n"
-        "#Shorts #Microhistoria #FinalInesperado"
+        + (
+            "Datos breves de divulgación. ¿Cuál te sorprendió más? Cuéntalo en los comentarios.\n\n"
+            "#Shorts #Curiosidades #DatosCuriosos"
+            if story.get("format") == "curiosity_list"
+            else "Microhistoria de ficción original. ¿Qué habrías hecho tú? Cuéntalo en los comentarios.\n\n"
+            "#Shorts #Microhistoria #FinalInesperado"
+        )
     )
+    credits = story.get("visual_credits") or []
+    if credits:
+        credit_lines = []
+        for item in credits:
+            line = str(item.get("line", "Imagen reutilizable"))
+            url = str(item.get("url", ""))
+            credit_lines.append(f"- {line}\n  {url}" if url else f"- {line}")
+        description += "\n\nCréditos de imágenes:\n" + "\n".join(credit_lines)
+    description = description[:4900]
     body = {
         "snippet": {
             "title": title,
@@ -86,4 +100,3 @@ def write_metadata(path: Path, story: dict[str, Any], render: dict[str, Any], vi
         "youtube_url": f"https://youtu.be/{video_id}" if video_id else None,
     }
     path.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
-
