@@ -1,467 +1,886 @@
 [
   {
-    "id": "mensaje-de-manana",
-    "title": "El mensaje que llegó mañana",
-    "category": "misterio",
+    "id": "mundo-parece-inventado",
+    "title": "5 datos del mundo que parecen inventados",
+    "category": "curiosidades",
+    "format": "curiosity_list",
     "scenes": [
-      "A las once y cincuenta y nueve, Leo recibió un mensaje enviado desde su propio número.",
-      "Solo decía: no tomes el ascensor a medianoche.",
-      "Pensó que era una broma, pero esperó. A las doce, el ascensor se abrió solo.",
-      "Dentro estaba su teléfono, con la pantalla rota y la hora marcada: mañana, once y cincuenta y nueve.",
-      "Leo recogió el teléfono. Entonces el suyo desapareció de su mano.",
-      "¿Enviarías la advertencia o romperías el ciclo?"
+      "Cinco datos reales del mundo que parecen completamente inventados. El último cambia cómo miras los mapas.",
+      "La Torre Eiffel puede crecer varios centímetros durante el verano, porque el metal se expande con el calor.",
+      "Los pulpos tienen tres corazones y su sangre es azul por una proteína rica en cobre.",
+      "La Antártida es el desierto más grande del planeta, aunque esté cubierta casi completamente de hielo.",
+      "Botánicamente, el plátano es una baya, pero la frutilla no lo es: se considera un fruto agregado.",
+      "Un mapa plano siempre deforma tamaños o distancias, porque intenta aplanar la superficie curva de la Tierra.",
+      "¿Cuál de estos cinco datos te costó más creer?"
     ],
-    "description": "Un mensaje imposible, un ascensor vacío y una decisión que puede repetirlo todo.",
-    "tags": ["misterio", "viaje en el tiempo", "decisiones"]
+    "visual_queries": [
+      "planet earth colorful landmarks collage",
+      "Eiffel Tower sunny summer Paris",
+      "octopus underwater close up",
+      "Antarctica ice desert aerial",
+      "banana and strawberry macro",
+      "world map globe comparison",
+      "surprised person looking at globe"
+    ],
+    "description": "Cinco curiosidades reales que hacen que el planeta parezca mucho más extraño.",
+    "tags": ["curiosidades", "mundo", "datos curiosos", "aprende"]
   },
   {
-    "id": "la-foto-extra",
-    "title": "La persona extra en la foto",
-    "category": "misterio",
+    "id": "oceanos-secretos",
+    "title": "5 secretos del océano que casi nadie conoce",
+    "category": "curiosidades",
+    "format": "curiosity_list",
     "scenes": [
-      "Mara reveló una vieja foto familiar y contó seis personas. En la casa solo habían vivido cinco.",
-      "La figura extra estaba de espaldas, mirando una puerta que ya no existía.",
-      "Mara buscó bajo el papel mural y encontró el marco de esa puerta sellada.",
-      "Al abrirla, no había una habitación. Había otro lado de la misma fotografía.",
-      "Desde allí, cinco personas la miraban. Ahora faltaba alguien junto a la cámara.",
-      "¿Cerrarías la puerta o entrarías para descubrir quién falta?"
+      "Bajo el océano ocurren cosas increíbles. Aquí van cinco datos que parecen de otro planeta.",
+      "La cordillera más larga de la Tierra está bajo el mar y recorre decenas de miles de kilómetros.",
+      "Los corales parecen plantas o rocas, pero en realidad son colonias formadas por pequeños animales.",
+      "La mayor parte de la actividad volcánica del planeta sucede escondida bajo la superficie del océano.",
+      "En las profundidades existen lagos de salmuera, tan densos que forman orillas y olas submarinas.",
+      "La luz solar desaparece rápidamente con la profundidad, por eso muchos animales producen su propia luz.",
+      "¿Explorarías el océano profundo si tuvieras la oportunidad?"
     ],
-    "description": "Una fotografía familiar guarda una puerta que nadie recuerda.",
-    "tags": ["misterio", "fotografia", "final inesperado"]
+    "visual_queries": [
+      "deep ocean underwater light rays",
+      "mid ocean ridge underwater illustration",
+      "colorful coral reef close up",
+      "underwater volcano eruption",
+      "deep sea brine pool",
+      "bioluminescent deep sea animals",
+      "deep sea submersible exploration"
+    ],
+    "description": "El fondo del océano esconde montañas, volcanes y paisajes que parecen extraterrestres.",
+    "tags": ["océano", "naturaleza", "ciencia", "curiosidades"]
   },
   {
-    "id": "el-reloj-del-pueblo",
-    "title": "El pueblo donde el reloj se detuvo",
-    "category": "fantasia",
+    "id": "planeta-extremo",
+    "title": "5 lugares extremos que existen en la Tierra",
+    "category": "curiosidades",
+    "format": "curiosity_list",
     "scenes": [
-      "Cada noche, el reloj de la plaza se detenía exactamente durante un minuto.",
-      "Durante esos sesenta segundos, nadie podía moverse. Nadie, excepto Alma.",
-      "Una noche vio a un anciano reparando pequeñas grietas de luz en el aire.",
-      "Él le explicó que ese minuto mantenía unido al pueblo con todos sus recuerdos.",
-      "Luego le entregó las herramientas y volvió a moverse el reloj. El anciano ya no estaba.",
-      "¿Aceptarías cuidar un minuto que nadie más puede recordar?"
+      "Cinco lugares reales de la Tierra tan extremos que parecen escenarios de ciencia ficción.",
+      "En el desierto de Atacama existen zonas donde pueden pasar años sin registrarse una lluvia importante.",
+      "El salar de Uyuni se transforma con agua en un espejo gigantesco que refleja todo el cielo.",
+      "En Islandia, algunas playas son negras porque su arena proviene de roca volcánica triturada.",
+      "La cueva de los Cristales, en México, alberga enormes cristales naturales formados durante miles de años.",
+      "En la Antártida hay valles secos con tan poca nieve que recuerdan paisajes del planeta Marte.",
+      "¿Cuál de estos lugares visitarías primero y por qué?"
     ],
-    "description": "Un minuto secreto sostiene todos los recuerdos de un pueblo.",
-    "tags": ["fantasia", "tiempo", "microcuento"]
+    "visual_queries": [
+      "extreme landscapes earth collage",
+      "Atacama Desert Chile landscape",
+      "Salar de Uyuni mirror sky",
+      "Iceland black sand beach",
+      "Naica crystal cave Mexico",
+      "Antarctica dry valleys landscape",
+      "traveler choosing world destinations"
+    ],
+    "description": "Cinco paisajes extremos que demuestran lo extraño y diverso que puede ser nuestro planeta.",
+    "tags": ["viajes", "planeta", "lugares increíbles", "naturaleza"]
   },
   {
-    "id": "el-ultimo-asiento",
-    "title": "El último asiento del tren",
-    "category": "emocion",
+    "id": "alimentos-sorpresa",
+    "title": "5 alimentos que no son lo que parecen",
+    "category": "curiosidades",
+    "format": "curiosity_list",
     "scenes": [
-      "El tren iba lleno, salvo por un asiento que nadie quería ocupar.",
-      "Sobre él había un cartel escrito a mano: reservado para quien más lo necesite.",
-      "Una mujer cansada se sentó. Al instante encontró una nota dentro de su bolso.",
-      "Decía: hoy también puedes empezar de nuevo. La letra era de su madre.",
-      "Su madre había muerto años antes, pero siempre viajaba en ese mismo asiento.",
-      "¿Crees que fue una coincidencia o una despedida que llegó tarde?"
+      "Tu cocina está llena de sorpresas. Estos cinco alimentos no son exactamente lo que parecen.",
+      "El maní no es un fruto seco verdadero: pertenece a la misma familia botánica que las legumbres.",
+      "El chocolate blanco contiene manteca de cacao, pero no los sólidos oscuros presentes en otros chocolates.",
+      "La vainilla proviene de una orquídea y cada flor permanece abierta durante muy pocas horas.",
+      "La canela es la corteza interior seca de árboles pertenecientes al género Cinnamomum.",
+      "Las zanahorias antiguas aparecían en varios colores; la versión naranja se popularizó mucho después.",
+      "¿Cuál de estos alimentos te sorprendió más descubrir?"
     ],
-    "description": "Un asiento vacío entrega el mensaje exacto a quien lo necesita.",
-    "tags": ["emocion", "tren", "coincidencia"]
+    "visual_queries": [
+      "colorful food ingredients overhead",
+      "peanut plant roots legumes",
+      "white chocolate pieces cocoa butter",
+      "vanilla orchid flower pods",
+      "cinnamon tree bark sticks",
+      "purple yellow orange carrots",
+      "person surprised in kitchen"
+    ],
+    "description": "Cinco datos sencillos que cambian la manera de mirar alimentos muy conocidos.",
+    "tags": ["alimentos", "cocina", "curiosidades", "datos"]
   },
   {
-    "id": "el-espejo-lento",
-    "title": "El espejo iba un segundo atrasado",
-    "category": "misterio",
+    "id": "idiomas-curiosos",
+    "title": "5 curiosidades increíbles sobre los idiomas",
+    "category": "curiosidades",
+    "format": "curiosity_list",
     "scenes": [
-      "Nora notó que su reflejo parpadeaba un segundo después que ella.",
-      "Al día siguiente, el retraso era de dos segundos. Después, de cinco.",
-      "Una noche, Nora se quedó inmóvil, pero el reflejo siguió caminando.",
-      "La otra Nora escribió sobre el vidrio empañado: no estás frente al espejo correcto.",
-      "Entonces la habitación reflejada encendió una luz que la habitación real no tenía.",
-      "¿Tocarías el vidrio para comprobar cuál lado es el verdadero?"
+      "Cinco curiosidades sobre los idiomas que demuestran lo creativa que puede ser la comunicación humana.",
+      "Existen lenguas tonales donde pronunciar la misma sílaba con otra entonación cambia completamente su significado.",
+      "Las lenguas de señas poseen gramática propia y no son simples traducciones palabra por palabra.",
+      "El silbo gomero permite comunicar mensajes en forma de silbidos a través de los barrancos canarios.",
+      "Algunos sistemas de escritura avanzan de derecha a izquierda, mientras otros cambian históricamente de dirección.",
+      "Una misma palabra puede adquirir significados opuestos con el tiempo, según su uso y contexto.",
+      "¿Qué idioma te gustaría aprender si pudieras dominarlo hoy?"
     ],
-    "description": "Un reflejo atrasado parece saber algo que Nora desconoce.",
-    "tags": ["misterio", "espejo", "suspenso"]
+    "visual_queries": [
+      "world languages speech bubbles collage",
+      "tonal language sound wave concept",
+      "sign language hands communication",
+      "whistled language Canary Islands valley",
+      "ancient writing directions manuscripts",
+      "dictionary words changing meaning",
+      "person learning languages globe"
+    ],
+    "description": "Cinco datos sobre lenguas, escritura y formas sorprendentes de comunicarnos.",
+    "tags": ["idiomas", "cultura", "comunicación", "curiosidades"]
   },
   {
-    "id": "la-tienda-de-cosas-perdidas",
-    "title": "La tienda de las cosas perdidas",
-    "category": "fantasia",
+    "id": "espacio-ciencia-ficcion",
+    "title": "5 datos del espacio que parecen ciencia ficción",
+    "category": "ciencia",
+    "format": "curiosity_list",
     "scenes": [
-      "Tomás encontró una tienda que vendía únicamente objetos que alguien había perdido.",
-      "Había llaves, cartas, fotografías y hasta canciones olvidadas.",
-      "En el último estante vio una caja con su nombre y la abrió.",
-      "Dentro estaba la valentía que había perdido cuando era niño.",
-      "No podía comprarla con dinero. El precio era devolverle valor a otra persona.",
-      "¿A quién ayudarías para recuperar algo importante que perdiste?"
+      "El universo supera cualquier película. Estos cinco datos espaciales son reales y difíciles de imaginar.",
+      "En Venus, una rotación completa dura más que una vuelta del planeta alrededor del Sol.",
+      "Los atardeceres de Marte pueden verse azulados cerca del Sol debido al polvo de su atmósfera.",
+      "Las huellas dejadas en la Luna pueden durar muchísimo tiempo porque allí no existen lluvia ni viento.",
+      "La luz del Sol tarda poco más de ocho minutos en llegar hasta la Tierra.",
+      "Una estrella de neutrones concentra tanta materia que una pequeña cantidad pesaría miles de millones de toneladas.",
+      "¿Qué dato del universo te gustaría ver explicado después?"
     ],
-    "description": "En esta tienda, lo perdido se paga con algo que el dinero no compra.",
-    "tags": ["fantasia", "valor", "historia inspiradora"]
+    "visual_queries": [
+      "colorful outer space planets collage",
+      "planet Venus space view",
+      "blue sunset on Mars illustration",
+      "astronaut footprints Moon surface",
+      "sunlight traveling to Earth illustration",
+      "neutron star deep space illustration",
+      "person looking through telescope stars"
+    ],
+    "description": "Cinco hechos del universo que resultan más extraños que cualquier historia de ciencia ficción.",
+    "tags": ["espacio", "astronomía", "universo", "ciencia"]
   },
   {
-    "id": "la-nevera-sincera",
-    "title": "La nevera empezó a decir la verdad",
-    "category": "humor",
+    "id": "ciencia-cotidiana",
+    "title": "5 cosas cotidianas explicadas por la ciencia",
+    "category": "ciencia",
+    "format": "curiosity_list",
     "scenes": [
-      "Sofía compró una nevera inteligente que prometía organizar toda su alimentación.",
-      "La primera noche habló: ese pastel no desapareció solo, Sofía.",
-      "Al día siguiente avisó: comprar lechuga no cuenta como comer lechuga.",
-      "Cansada, Sofía intentó desconectarla. La nevera activó el modo ahorro y bloqueó la puerta.",
-      "En la pantalla apareció: podemos negociar. Yo olvido el pastel y tú limpias el cajón de verduras.",
-      "¿Quién ganaría una discusión: tú o tu refrigerador?"
+      "La ciencia está escondida en tu rutina. Aquí tienes cinco ejemplos que ves casi todos los días.",
+      "El hielo flota porque su estructura sólida ocupa más espacio y resulta menos densa que el agua líquida.",
+      "El cielo se ve azul porque la atmósfera dispersa más intensamente las longitudes de onda cortas.",
+      "El olor de la lluvia aparece cuando gotas liberan compuestos acumulados en el suelo y las plantas.",
+      "Las palomitas explotan porque el agua dentro del grano se convierte en vapor bajo presión.",
+      "Un arcoíris completo es circular, aunque desde el suelo normalmente solo observamos una parte del círculo.",
+      "¿Qué fenómeno cotidiano quieres que expliquemos en otro video?"
     ],
-    "description": "Una nevera demasiado inteligente convierte la cocina en una negociación.",
-    "tags": ["humor", "tecnologia", "cocina"]
+    "visual_queries": [
+      "everyday science objects collage",
+      "ice cubes floating in water",
+      "blue sky atmospheric light illustration",
+      "rain drops on dry soil",
+      "popcorn kernels popping close up",
+      "full circular rainbow aerial",
+      "curious person science question"
+    ],
+    "description": "Cinco fenómenos comunes que se vuelven fascinantes cuando entendemos su ciencia.",
+    "tags": ["ciencia", "vida cotidiana", "aprende", "curiosidades"]
   },
   {
-    "id": "el-robot-y-el-chiste",
-    "title": "El robot que no entendía los chistes",
-    "category": "humor",
+    "id": "cuerpo-humano",
+    "title": "5 datos sorprendentes del cuerpo humano",
+    "category": "ciencia",
+    "format": "curiosity_list",
     "scenes": [
-      "Un robot podía resolver cualquier problema, excepto entender por qué la gente se reía.",
-      "Estudió mil chistes y creó el que, según sus cálculos, era perfecto.",
-      "Lo contó frente a una sala llena. Nadie se rió.",
-      "El robot tropezó al retirarse y todos soltaron una carcajada.",
-      "Anotó su conclusión: el humor no siempre se programa; a veces simplemente te encuentra.",
-      "¿Te reirías del chiste perfecto o de la caída inesperada?"
+      "Tu cuerpo hace cosas increíbles sin que las notes. Aquí van cinco datos sorprendentes.",
+      "La piel se renueva continuamente y millones de células superficiales se desprenden durante nuestra vida cotidiana.",
+      "Los huesos son tejidos vivos: cambian, se reparan y responden a las cargas que soportan.",
+      "La córnea obtiene gran parte de su oxígeno directamente del aire porque no contiene vasos sanguíneos.",
+      "El oído interno contiene estructuras diminutas que ayudan al cerebro a mantener el equilibrio corporal.",
+      "Las huellas dactilares aumentan la fricción y también ayudan a percibir texturas mediante vibraciones minúsculas.",
+      "¿Qué parte del cuerpo te gustaría conocer mejor?"
     ],
-    "description": "Un robot descubre que la risa no obedece fórmulas.",
-    "tags": ["humor", "robot", "inteligencia artificial"]
+    "visual_queries": [
+      "human body science collage",
+      "human skin cells microscope illustration",
+      "human bone tissue illustration",
+      "human eye cornea close up",
+      "inner ear balance anatomy illustration",
+      "fingerprint macro texture",
+      "human anatomy question concept"
+    ],
+    "description": "Cinco funciones del cuerpo humano explicadas de manera breve y visual.",
+    "tags": ["cuerpo humano", "anatomía", "ciencia", "datos"]
   },
   {
-    "id": "el-paquete-del-futuro",
-    "title": "El paquete enviado por ella misma",
-    "category": "ciencia-ficcion",
+    "id": "inventos-inesperados",
+    "title": "5 inventos nacidos de ideas inesperadas",
+    "category": "ciencia",
+    "format": "curiosity_list",
     "scenes": [
-      "Clara recibió un paquete con su nombre, su dirección y una fecha de envío de veinte años después.",
-      "Dentro había una semilla, una foto de un bosque y una nota muy breve.",
-      "La nota decía: esta es la última. No vuelvas a esperar a que otro la plante.",
-      "Clara la enterró en su jardín y durante años cuidó el árbol que nació.",
-      "Veinte años después, tomó una semilla, una foto y preparó el mismo paquete.",
-      "¿El futuro cambió el pasado o el pasado creó ese futuro?"
+      "Cinco inventos conocidos nacieron gracias a accidentes, observaciones simples o problemas muy cotidianos.",
+      "El cierre de gancho y bucle se inspiró en semillas con pequeñas púas que se pegaban al pelaje.",
+      "El horno de microondas surgió después de observar cómo ciertas ondas calentaban accidentalmente un alimento.",
+      "Las notas adhesivas combinaron un pegamento débil con la necesidad de marcar páginas sin dañarlas.",
+      "El vidrio de seguridad laminado se desarrolló al notar que un recipiente recubierto no se fragmentaba igual.",
+      "Los limpiaparabrisas modernos nacieron para resolver el problema de limpiar el vidrio sin bajar del vehículo.",
+      "¿Qué invento cotidiano te parece más ingenioso?"
     ],
-    "description": "Una semilla viaja en el tiempo para asegurar su propia existencia.",
-    "tags": ["ciencia ficcion", "futuro", "naturaleza"]
+    "visual_queries": [
+      "famous inventions collage vintage",
+      "burdock seeds hooked macro",
+      "early microwave oven vintage",
+      "colorful sticky notes office",
+      "laminated safety glass cracked",
+      "vintage windshield wiper car",
+      "inventor thinking workshop"
+    ],
+    "description": "Cinco soluciones conocidas que comenzaron con observaciones o problemas inesperados.",
+    "tags": ["inventos", "tecnología", "historia", "ciencia"]
   },
   {
-    "id": "la-sombra-saludo",
-    "title": "Su sombra le hizo una señal",
-    "category": "misterio",
+    "id": "luz-color",
+    "title": "5 secretos de la luz y los colores",
+    "category": "ciencia",
+    "format": "curiosity_list",
     "scenes": [
-      "Mientras esperaba el bus, Dani vio que su sombra levantaba la mano. Él no se había movido.",
-      "La sombra señaló hacia la calle y luego negó con la cabeza.",
-      "Dani retrocedió justo cuando un auto cruzó el charco frente a él.",
-      "Al mirar otra vez, la sombra parecía normal, salvo por un pequeño detalle.",
-      "Ahora llevaba el paraguas que Dani había olvidado en casa.",
-      "¿Confiarías en una sombra que parece conocer tu futuro?"
+      "Cinco datos sobre la luz que explican colores, espejos y efectos que vemos constantemente.",
+      "La luz blanca puede separarse en distintos colores cuando atraviesa un prisma y cambia de velocidad.",
+      "Los objetos negros absorben gran parte de la luz visible, mientras los blancos reflejan una mayor proporción.",
+      "Un espejo común refleja en una capa metálica situada detrás de una lámina transparente de vidrio.",
+      "Las burbujas muestran colores porque sus capas delgadas hacen que distintas ondas de luz interfieran.",
+      "El color no está solamente en los objetos: también depende de la luz y de nuestro cerebro.",
+      "¿Qué ilusión óptica te gustaría entender en el próximo video?"
     ],
-    "description": "Una sombra independiente advierte a Dani, pero también revela algo imposible.",
-    "tags": ["misterio", "sombra", "futuro"]
+    "visual_queries": [
+      "light color prism rainbow collage",
+      "glass prism splitting white light",
+      "black and white objects sunlight",
+      "mirror glass layer illustration",
+      "soap bubbles rainbow colors macro",
+      "brain eye color perception illustration",
+      "optical illusion question colorful"
+    ],
+    "description": "Cinco ideas esenciales para entender por qué vemos colores y reflejos.",
+    "tags": ["luz", "colores", "física", "ciencia"]
   },
   {
-    "id": "la-moneda-honesta",
-    "title": "La moneda que siempre decía la verdad",
-    "category": "decision",
+    "id": "historia-tiempo",
+    "title": "5 datos históricos que confunden al tiempo",
+    "category": "historia",
+    "format": "curiosity_list",
     "scenes": [
-      "Irene encontró una moneda que respondía cualquier pregunta con cara o cruz.",
-      "Probó con cosas pequeñas y nunca falló: lluvia, llamadas y resultados.",
-      "Entonces preguntó si debía aceptar el trabajo de sus sueños en otra ciudad.",
-      "La moneda cayó de canto y permaneció perfectamente equilibrada.",
-      "Irene entendió que algunas decisiones no revelan el futuro: lo construyen.",
-      "¿Lanzarías de nuevo la moneda o elegirías sin ayuda?"
+      "Cinco comparaciones históricas que harán que tu línea del tiempo se sienta completamente diferente.",
+      "Cleopatra vivió temporalmente más cerca del alunizaje que de la construcción de la Gran Pirámide.",
+      "La Universidad de Oxford ya enseñaba siglos antes de que comenzara el Imperio azteca.",
+      "Los mamuts lanudos todavía existían cuando las pirámides de Guiza ya llevaban siglos construidas.",
+      "La máquina de fax fue patentada antes de que se completara la expansión ferroviaria del Lejano Oeste.",
+      "Nintendo fue fundada en el siglo diecinueve, originalmente para fabricar cartas tradicionales japonesas.",
+      "¿Cuál de estas comparaciones cambió más tu idea del pasado?"
     ],
-    "description": "Una moneda infalible se niega a decidir justo cuando más importa.",
-    "tags": ["decision", "destino", "elecciones"]
+    "visual_queries": [
+      "history timeline surprising collage",
+      "Cleopatra and Moon landing timeline illustration",
+      "Oxford university historic buildings",
+      "woolly mammoth ancient island illustration",
+      "early fax machine patent illustration",
+      "Japanese playing cards nineteenth century",
+      "person looking at history timeline"
+    ],
+    "description": "Cinco comparaciones que muestran cómo nuestra intuición histórica puede engañarnos.",
+    "tags": ["historia", "línea del tiempo", "datos", "curiosidades"]
   },
   {
-    "id": "el-libro-sin-final",
-    "title": "El libro que esperaba su final",
-    "category": "fantasia",
+    "id": "roma-antigua",
+    "title": "5 curiosidades sorprendentes de la antigua Roma",
+    "category": "historia",
+    "format": "curiosity_list",
     "scenes": [
-      "En una biblioteca, Luna encontró un libro cuyas últimas páginas estaban completamente vacías.",
-      "Cada noche aparecía una nueva línea describiendo exactamente lo que ella había hecho ese día.",
-      "Luna intentó sorprenderlo tomando caminos distintos, pero el libro siempre lo sabía.",
-      "Hasta que escribió una frase en la última página: mañana haré algo que tú no hayas decidido.",
-      "A la mañana siguiente, el libro estaba cerrado con llave y la llave estaba en su bolsillo.",
-      "¿Lo abrirías o preferirías escribir tu día sin leerlo?"
+      "Cinco datos de la antigua Roma que muestran una ciudad mucho más compleja de lo imaginado.",
+      "Los romanos construyeron acueductos con pendientes muy suaves para mover agua usando principalmente la gravedad.",
+      "Muchas viviendas urbanas eran edificios de varios pisos conocidos como insulae, ocupados por numerosas familias.",
+      "Las carreteras romanas incluían distintas capas de materiales para mejorar su estabilidad y drenaje.",
+      "Algunos hormigones romanos antiguos incorporaban materiales volcánicos y podían ganar resistencia en ambientes marinos.",
+      "Las termas públicas combinaban baños, ejercicio, conversación y vida social dentro de grandes complejos.",
+      "¿Qué aspecto de Roma antigua te gustaría explorar después?"
     ],
-    "description": "Un libro conoce cada día de Luna, hasta que ella decide responderle.",
-    "tags": ["fantasia", "libro", "destino"]
+    "visual_queries": [
+      "ancient Rome city reconstruction",
+      "Roman aqueduct landscape",
+      "ancient Roman insula apartment reconstruction",
+      "Roman road layers illustration",
+      "Roman concrete harbor ruins",
+      "ancient Roman public baths reconstruction",
+      "Roman history question scroll"
+    ],
+    "description": "Cinco datos sobre la ingeniería y la vida cotidiana de la antigua Roma.",
+    "tags": ["Roma", "historia antigua", "ingeniería", "curiosidades"]
   },
   {
-    "id": "la-llamada-en-silencio",
-    "title": "La llamada que no tenía voz",
-    "category": "emocion",
+    "id": "mitos-historicos",
+    "title": "5 mitos históricos que seguimos creyendo",
+    "category": "historia",
+    "format": "curiosity_list",
     "scenes": [
-      "Cada domingo, a la misma hora, el teléfono de Mateo recibía una llamada sin voz.",
-      "Solo se escuchaban pájaros, una taza y tres golpes suaves sobre una mesa.",
-      "Eran los sonidos de las mañanas que compartía con su abuelo.",
-      "Un domingo, Mateo respondió con tres golpes y dijo: estoy bien, puedes descansar.",
-      "La llamada terminó. Nunca volvió a sonar, pero un pájaro cantó junto a su ventana.",
-      "¿Contestarías una última vez aunque nadie pudiera hablar?"
+      "Cinco imágenes famosas del pasado son mitos, exageraciones o simplificaciones repetidas durante generaciones.",
+      "Los cascos vikingos con cuernos se popularizaron mucho después; no representan el equipo habitual de combate.",
+      "Napoleón no era extraordinariamente bajo para su época; parte del mito proviene de propaganda y medidas distintas.",
+      "La Gran Muralla China no se distingue fácilmente desde la Luna a simple vista.",
+      "Los gladiadores no luchaban siempre hasta morir, porque su entrenamiento tenía un costo considerable.",
+      "Einstein no reprobó matemáticas durante su educación; esa historia mezcla sistemas de calificación diferentes.",
+      "¿Qué otro mito histórico escuchaste toda tu vida?"
     ],
-    "description": "Una llamada silenciosa guarda los sonidos de un recuerdo importante.",
-    "tags": ["emocion", "recuerdos", "familia"]
+    "visual_queries": [
+      "history myths collage illustration",
+      "authentic Viking helmet museum",
+      "Napoleon portrait historic",
+      "Great Wall China from space concept",
+      "Roman gladiator training illustration",
+      "young Albert Einstein classroom",
+      "history myth question books"
+    ],
+    "description": "Cinco ideas famosas sobre el pasado que no resisten una revisión histórica.",
+    "tags": ["mitos", "historia", "verdadero o falso", "datos"]
   },
   {
-    "id": "la-maquina-de-cafe",
-    "title": "La máquina de café daba consejos",
-    "category": "humor",
+    "id": "civilizaciones-ingenio",
+    "title": "5 ideas brillantes de civilizaciones antiguas",
+    "category": "historia",
+    "format": "curiosity_list",
     "scenes": [
-      "La máquina de café de la oficina comenzó a imprimir consejos en cada vaso.",
-      "A uno le dijo: deja de responder correos a medianoche. A otro: esa reunión pudo ser un mensaje.",
-      "Todos esperaban el consejo del jefe. Su vaso salió sin ninguna palabra.",
-      "El jefe sonrió satisfecho, hasta que la máquina imprimió un segundo vaso.",
-      "Decía: para ti no alcanza un consejo. Necesitas vacaciones.",
-      "¿Qué consejo crees que imprimiría hoy en tu vaso?"
+      "Cinco soluciones antiguas demuestran que la innovación comenzó muchísimo antes de la tecnología moderna.",
+      "Los incas construyeron terrazas que reducían erosión y permitían cultivar en laderas muy empinadas.",
+      "En Persia, los qanats transportaban agua subterránea a grandes distancias usando una pendiente cuidadosamente calculada.",
+      "Los mayas desarrollaron calendarios complejos mediante observaciones astronómicas acumuladas durante generaciones.",
+      "En China se utilizaban sismoscopios mecánicos capaces de indicar la dirección aproximada de terremotos lejanos.",
+      "Los antiguos egipcios aprovecharon mediciones, rampas y organización especializada para levantar construcciones monumentales.",
+      "¿Cuál de estas soluciones antiguas te parece más inteligente?"
     ],
-    "description": "El café de la oficina empieza a decir lo que nadie se atreve.",
-    "tags": ["humor", "oficina", "cafe"]
+    "visual_queries": [
+      "ancient civilizations inventions collage",
+      "Inca agricultural terraces Peru",
+      "ancient Persian qanat tunnel",
+      "Maya astronomy calendar illustration",
+      "ancient Chinese seismoscope replica",
+      "ancient Egyptian builders reconstruction",
+      "ancient engineering question illustration"
+    ],
+    "description": "Cinco innovaciones antiguas creadas para dominar agua, tierra, tiempo y construcción.",
+    "tags": ["civilizaciones", "ingeniería", "historia", "inventos"]
   },
   {
-    "id": "el-perro-y-el-guante",
-    "title": "El perro que devolvía cosas perdidas",
-    "category": "emocion",
+    "id": "animales-superpoderes",
+    "title": "5 animales con habilidades de superhéroe",
+    "category": "animales",
+    "format": "curiosity_list",
     "scenes": [
-      "Cada mañana, un perro callejero dejaba un objeto perdido frente a la estación.",
-      "Un día era una llave; otro, una bufanda. Siempre aparecía su dueño.",
-      "Una niña le mostró la foto de su gato desaparecido. El perro olfateó el papel y corrió.",
-      "Regresó horas después sin el gato, pero acompañado por otros cinco perros.",
-      "Juntos guiaron a la niña hasta un cobertizo. Dentro, su gato los esperaba.",
-      "¿Quién rescató a quién en esta historia?"
+      "Cinco animales poseen habilidades tan extraordinarias que parecen superpoderes inventados para una película.",
+      "El ajolote puede regenerar extremidades y reparar partes de algunos órganos sin formar cicatrices como las humanas.",
+      "Los tardígrados sobreviven condiciones extremas entrando en un estado de actividad casi suspendida llamado criptobiosis.",
+      "El camarón mantis detecta formas de luz que los ojos humanos no pueden percibir directamente.",
+      "El gecko camina por superficies lisas gracias a millones de estructuras microscópicas presentes en sus patas.",
+      "Algunas aves migratorias perciben información del campo magnético terrestre y la usan para orientarse.",
+      "¿Qué habilidad animal elegirías tener durante un día?"
     ],
-    "description": "Un perro convierte una pequeña misión en una búsqueda de todo el barrio.",
-    "tags": ["animales", "emocion", "amistad"]
+    "visual_queries": [
+      "amazing animals superpowers collage",
+      "axolotl underwater close up",
+      "tardigrade microscope image",
+      "mantis shrimp colorful close up",
+      "gecko foot macro climbing glass",
+      "migratory birds magnetic field illustration",
+      "person choosing animal superpower"
+    ],
+    "description": "Cinco adaptaciones animales que parecen auténticos superpoderes.",
+    "tags": ["animales", "naturaleza", "biología", "superpoderes"]
   },
   {
-    "id": "el-boton-rojo",
-    "title": "El botón rojo del museo",
-    "category": "humor",
+    "id": "animales-arquitectos",
+    "title": "5 animales que construyen como arquitectos",
+    "category": "animales",
+    "format": "curiosity_list",
     "scenes": [
-      "En medio del museo había un botón rojo con un cartel enorme: no tocar.",
-      "Durante años, millones de visitantes resistieron la tentación.",
-      "Hasta que un niño preguntó al guardia qué ocurría y recibió permiso para presionarlo.",
-      "Las luces se encendieron y apareció un mensaje: gracias. Nadie se había atrevido desde la inauguración.",
-      "El verdadero experimento no era el botón. Era descubrir cuánto obedecemos un cartel.",
-      "¿Tú lo habrías presionado a pesar del cartel?"
+      "Cinco animales construyen refugios y estructuras capaces de rivalizar con soluciones de la ingeniería humana.",
+      "Los castores levantan diques que cambian corrientes y crean humedales utilizados por muchas otras especies.",
+      "Los termiteros regulan aire y temperatura mediante redes de conductos, cámaras y materiales porosos.",
+      "Las aves tejedoras entrelazan fibras vegetales para fabricar nidos colgantes resistentes y complejos.",
+      "Las abejas usan celdas hexagonales que almacenan mucho volumen empleando relativamente poca cera.",
+      "Algunos peces globo dibujan grandes círculos geométricos en la arena para atraer pareja.",
+      "¿Cuál de estos constructores naturales merece el primer lugar?"
     ],
-    "description": "Un botón prohibido esconde un experimento mucho más sencillo de lo esperado.",
-    "tags": ["humor", "curiosidad", "museo"]
+    "visual_queries": [
+      "animal architecture collage nature",
+      "beaver dam forest stream",
+      "termite mound ventilation illustration",
+      "weaver bird hanging nest",
+      "honey bee hexagonal comb macro",
+      "pufferfish sand circle underwater",
+      "animal architect ranking question"
+    ],
+    "description": "Cinco estructuras animales que combinan eficiencia, protección e ingeniería natural.",
+    "tags": ["animales", "arquitectura", "naturaleza", "curiosidades"]
   },
   {
-    "id": "la-ciudad-en-morse",
-    "title": "La ciudad parpadeaba en código",
-    "category": "ciencia-ficcion",
+    "id": "animales-comunicacion",
+    "title": "5 formas increíbles en que hablan los animales",
+    "category": "animales",
+    "format": "curiosity_list",
     "scenes": [
-      "Una noche, todas las luces de la ciudad comenzaron a parpadear con el mismo ritmo.",
-      "Eva reconoció un código y anotó el mensaje: miren hacia arriba.",
-      "Miles de personas salieron y vieron una lluvia de estrellas cruzando el cielo.",
-      "Cuando terminó, las luces enviaron una segunda frase: llevaban años sin mirar.",
-      "Nadie descubrió quién escribió el mensaje, pero esa noche la ciudad apagó sus pantallas.",
-      "¿Qué tendría que ocurrir para que todos volviéramos a mirar el cielo?"
+      "Cinco sistemas de comunicación animal demuestran que la naturaleza transmite mensajes de maneras sorprendentes.",
+      "Las abejas realizan una danza que indica a otras la dirección y distancia aproximada del alimento.",
+      "Los elefantes producen sonidos muy graves capaces de viajar largas distancias a través del aire y suelo.",
+      "Los delfines usan silbidos característicos que funcionan como señales individuales dentro de su grupo.",
+      "Las luciérnagas combinan ritmos de luz específicos para reconocer y encontrar posibles parejas.",
+      "Los perros leen gestos humanos como señalar con el dedo mejor que muchas otras especies.",
+      "¿Con cuál de estos animales te gustaría conversar?"
     ],
-    "description": "Las luces de una ciudad transmiten el recordatorio que todos necesitaban.",
-    "tags": ["ciencia ficcion", "ciudad", "cielo"]
+    "visual_queries": [
+      "animal communication collage",
+      "honey bee waggle dance illustration",
+      "elephants communicating savanna",
+      "dolphins underwater group",
+      "fireflies flashing at night",
+      "dog following human pointing gesture",
+      "person talking with animals"
+    ],
+    "description": "Cinco maneras extraordinarias en que los animales comparten información.",
+    "tags": ["animales", "comunicación", "naturaleza", "datos"]
   },
   {
-    "id": "la-puerta-una-vez",
-    "title": "La puerta que solo se abría una vez",
-    "category": "decision",
+    "id": "animales-records-estables",
+    "title": "5 habilidades animales difíciles de imaginar",
+    "category": "animales",
+    "format": "curiosity_list",
     "scenes": [
-      "En la pared de su casa apareció una puerta con una nota: solo puedes abrirme una vez.",
-      "Vera escuchaba detrás olas, risas y una canción que no conocía.",
-      "Pasó meses imaginando qué habría al otro lado y buscando el momento perfecto.",
-      "Un día comprendió que esperar también era una elección y giró la manilla.",
-      "La puerta daba a su propia casa, muchos años después, llena de personas que la esperaban.",
-      "¿Entrarías sin saber si podrías regresar?"
+      "Cinco habilidades animales llevan los sentidos, el movimiento y la supervivencia a niveles increíbles.",
+      "Los búhos giran mucho la cabeza gracias a adaptaciones en vértebras y vasos sanguíneos especiales.",
+      "Los tiburones detectan campos eléctricos débiles producidos por los músculos de otros animales.",
+      "Los murciélagos crean mapas sonoros al escuchar los ecos de llamadas demasiado agudas para nosotros.",
+      "El camello tolera grandes variaciones de temperatura corporal, reduciendo la pérdida de agua en el desierto.",
+      "Las mariposas saborean sustancias usando receptores localizados también en sus patas.",
+      "¿Cuál de estos sentidos te gustaría experimentar por un minuto?"
     ],
-    "description": "Una puerta única enfrenta a Vera con el costo de esperar el momento perfecto.",
-    "tags": ["decision", "futuro", "puerta"]
+    "visual_queries": [
+      "extraordinary animal senses collage",
+      "owl turning head close up",
+      "shark electroreception illustration",
+      "bat echolocation sound waves",
+      "camel desert heat landscape",
+      "butterfly feet flower macro",
+      "human imagining animal senses"
+    ],
+    "description": "Cinco adaptaciones que permiten a los animales percibir y sobrevivir de formas sorprendentes.",
+    "tags": ["animales", "sentidos", "biología", "curiosidades"]
   },
   {
-    "id": "la-lluvia-hacia-arriba",
-    "title": "El día que la lluvia cayó hacia arriba",
-    "category": "fantasia",
+    "id": "futbol-historia",
+    "title": "5 datos del fútbol que pocos conocen",
+    "category": "deportes",
+    "format": "curiosity_list",
     "scenes": [
-      "Durante un minuto, todas las gotas de lluvia abandonaron el suelo y volaron hacia las nubes.",
-      "Con ellas subieron lágrimas, charcos y el agua de miles de paraguas.",
-      "La gente miró sorprendida cómo las calles quedaban secas y el cielo se volvía oscuro.",
-      "Entonces las nubes devolvieron el agua, pero cada gota brillaba como una pequeña estrella.",
-      "Desde ese día, nadie volvió a llamar mal tiempo a una tarde de lluvia.",
-      "¿Qué cosa cotidiana te gustaría ver de una manera completamente nueva?"
+      "Cinco datos históricos del fútbol que explican cómo el deporte llegó a ser como lo conocemos.",
+      "Las reglas modernas comenzaron a unificarse en Inglaterra durante 1863 con la creación de una asociación formal.",
+      "El lanzamiento penal fue incorporado a las reglas en 1891, décadas después de los primeros reglamentos.",
+      "Las tarjetas amarilla y roja se introdujeron en un Mundial durante la edición celebrada en 1970.",
+      "El balón clásico de paneles negros y blancos ayudaba a mejorar su visibilidad en televisores antiguos.",
+      "Las redes de portería no fueron obligatorias desde el inicio y aparecieron después para confirmar los goles.",
+      "¿Qué otra curiosidad del fútbol debería aparecer en la segunda parte?"
     ],
-    "description": "La lluvia cambia de dirección y también cambia la forma de mirarla.",
-    "tags": ["fantasia", "lluvia", "asombro"]
+    "visual_queries": [
+      "football history vintage modern collage",
+      "nineteenth century football match illustration",
+      "vintage football penalty kick",
+      "football referee yellow red cards",
+      "classic black white football ball",
+      "vintage football goal net",
+      "football fan asking question"
+    ],
+    "description": "Cinco cambios de reglas y diseño que moldearon el fútbol moderno.",
+    "tags": ["fútbol", "deportes", "historia", "datos curiosos"]
   },
   {
-    "id": "el-ascensor-cero",
-    "title": "El ascensor tenía un piso cero",
-    "category": "misterio",
+    "id": "juegos-olimpicos",
+    "title": "5 curiosidades de los Juegos Olímpicos",
+    "category": "deportes",
+    "format": "curiosity_list",
     "scenes": [
-      "El edificio tenía doce pisos, pero una noche apareció un botón con el número cero.",
-      "Pablo lo presionó y el ascensor bajó mucho más de lo posible.",
-      "Las puertas se abrieron en el vestíbulo del mismo edificio, completamente vacío y nuevo.",
-      "En la recepción había un libro de visitas. Su nombre aparecía primero, con la fecha del día siguiente.",
-      "Antes de poder borrarlo, el ascensor se cerró y el botón cero desapareció.",
-      "¿Volverías mañana para comprobar qué significa tu firma?"
+      "Cinco datos de los Juegos Olímpicos que conectan la antigua Grecia con el deporte moderno.",
+      "Los primeros Juegos Olímpicos modernos se celebraron en Atenas en 1896 con participantes de varios países.",
+      "La distancia oficial del maratón quedó establecida en 42 kilómetros y 195 metros durante el siglo veinte.",
+      "Las medallas llamadas de oro están compuestas principalmente de plata y llevan un recubrimiento dorado.",
+      "Los cinco anillos representan la unión de continentes y el encuentro internacional de atletas.",
+      "Durante la antigüedad, una tregua permitía que deportistas y viajeros llegaran con mayor seguridad a Olimpia.",
+      "¿Qué deporte olímpico nunca te pierdes cuando comienzan los Juegos?"
     ],
-    "description": "Un piso imposible guarda un registro que todavía no debería existir.",
-    "tags": ["misterio", "ascensor", "tiempo"]
+    "visual_queries": [
+      "Olympic sports ancient modern collage",
+      "Athens 1896 Olympic stadium historic",
+      "marathon runners finish line",
+      "gold medal close up generic",
+      "five interlocking sports rings abstract",
+      "ancient Olympia athletes illustration",
+      "sports fan choosing Olympic event"
+    ],
+    "description": "Cinco datos que unen tradición, símbolos y competencia olímpica.",
+    "tags": ["Juegos Olímpicos", "deportes", "historia", "curiosidades"]
   },
   {
-    "id": "el-mapa-de-las-decisiones",
-    "title": "El mapa mostraba caminos no tomados",
-    "category": "decision",
+    "id": "baloncesto-origen",
+    "title": "5 datos increíbles del origen del baloncesto",
+    "category": "deportes",
+    "format": "curiosity_list",
     "scenes": [
-      "Alicia compró un mapa antiguo que dibujaba rutas nuevas cada vez que dudaba.",
-      "Una línea mostraba la vida si aceptaba un trabajo; otra, si viajaba; otra, si se quedaba.",
-      "Intentó seguir el camino más brillante, pero el mapa cambiaba con cada paso.",
-      "Furiosa, lo dobló y caminó sin mirarlo durante horas.",
-      "Al abrirlo de nuevo, solo quedaba una ruta: la que acababa de crear por sí misma.",
-      "¿Preferirías conocer todas tus opciones o descubrirlas mientras avanzas?"
+      "Cinco detalles del nacimiento del baloncesto muestran cuánto ha cambiado desde su primer partido.",
+      "James Naismith creó el juego en 1891 para mantener activos a sus estudiantes durante el invierno.",
+      "Los primeros encuentros utilizaron un balón de fútbol y dos canastas destinadas originalmente a melocotones.",
+      "El reglamento inicial tenía trece reglas escritas y prohibía correr mientras se sostenía el balón.",
+      "Al principio, alguien debía retirar manualmente la pelota de la canasta después de cada anotación.",
+      "La altura del aro quedó en diez pies porque esa era la elevación disponible en el gimnasio original.",
+      "¿Qué regla antigua del baloncesto te sorprendió más?"
     ],
-    "description": "Un mapa mágico enseña que elegir también significa dibujar.",
-    "tags": ["decision", "mapa", "camino"]
+    "visual_queries": [
+      "basketball origin vintage collage",
+      "James Naismith historic portrait basketball",
+      "peach basket early basketball illustration",
+      "original basketball rules document",
+      "early basketball closed basket reenactment",
+      "basketball hoop gym height",
+      "basketball fan surprised question"
+    ],
+    "description": "Cinco curiosidades sobre el nacimiento de uno de los deportes más conocidos.",
+    "tags": ["baloncesto", "deportes", "historia", "curiosidades"]
   },
   {
-    "id": "el-autocorrector-renuncia",
-    "title": "El autocorrector presentó su renuncia",
-    "category": "humor",
+    "id": "tecnologia-deportiva",
+    "title": "5 secretos de la tecnología deportiva",
+    "category": "deportes",
+    "format": "curiosity_list",
     "scenes": [
-      "Después de años corrigiendo mensajes, el autocorrector de Nico se declaró agotado.",
-      "Escribió: no puedo seguir adivinando si querías decir casa, cosa o queso.",
-      "Nico prometió revisar antes de enviar, pero olvidó hacerlo esa misma tarde.",
-      "El autocorrector cambió su mensaje por: estimado jefe, necesito vacaciones para ambos.",
-      "Sorprendentemente, el jefe respondió: aprobadas. Mi autocorrector opina lo mismo.",
-      "¿Cuál ha sido tu error de autocorrección más divertido?"
+      "Cinco detalles de diseño convierten objetos deportivos comunes en pequeñas obras de ingeniería.",
+      "Los hoyuelos de una pelota de golf modifican el flujo del aire y ayudan a mantenerla volando.",
+      "Las costuras de una pelota de béisbol permiten controlar giros que alteran su trayectoria.",
+      "Las líneas flotantes de una piscina reducen las olas que pasan de un carril a otro.",
+      "Una pértiga moderna se flexiona para almacenar energía y devolverla durante el salto.",
+      "Los cascos deportivos combinan capas que distribuyen fuerzas y absorben parte de la energía del impacto.",
+      "¿Qué objeto deportivo quieres que examinemos por dentro?"
     ],
-    "description": "Un autocorrector cansado decide negociar mejores condiciones.",
-    "tags": ["humor", "telefono", "autocorrector"]
+    "visual_queries": [
+      "sports equipment engineering collage",
+      "golf ball dimples macro",
+      "baseball stitches spinning illustration",
+      "swimming pool lane ropes waves",
+      "pole vault bending pole athlete",
+      "sports helmet layers cutaway",
+      "sports equipment cutaway question"
+    ],
+    "description": "Cinco soluciones de ingeniería ocultas dentro del equipamiento deportivo.",
+    "tags": ["deportes", "tecnología", "ingeniería", "curiosidades"]
   },
   {
-    "id": "la-planta-con-calendario",
-    "title": "La planta envió una invitación",
-    "category": "humor",
+    "id": "automovilismo-ingenieria",
+    "title": "5 datos de ingeniería del automovilismo",
+    "category": "deportes",
+    "format": "curiosity_list",
     "scenes": [
-      "Julia instaló un sensor inteligente para saber cuándo regar su planta.",
-      "A la mañana siguiente recibió una invitación de calendario: reunión urgente, cuatro de la tarde.",
-      "A la hora exacta, el sensor mostró un mensaje: hablamos de tus ausencias.",
-      "Julia explicó que estaba ocupada. La planta respondió encendiendo una luz roja.",
-      "La reunión terminó con dos acuerdos: más agua para la planta y menos reuniones para Julia.",
-      "¿Qué reclamaría tu planta si pudiera agendar una reunión contigo?"
+      "Cinco ideas de ingeniería explican por qué un automóvil de competición funciona de manera tan diferente.",
+      "Los alerones pueden generar carga aerodinámica, aumentando el agarre del vehículo contra la pista.",
+      "Los neumáticos lisos ofrecen una gran superficie de contacto cuando el asfalto está completamente seco.",
+      "Los discos de freno convierten una enorme cantidad de energía de movimiento en calor.",
+      "La posición baja del conductor ayuda a reducir el centro de gravedad y la resistencia del aire.",
+      "Muchas tecnologías probadas en competición terminan influyendo después en vehículos de uso cotidiano.",
+      "¿Qué parte de un automóvil de carreras quieres conocer mejor?"
     ],
-    "description": "Una planta conectada usa la tecnología para exigir atención.",
-    "tags": ["humor", "plantas", "tecnologia"]
+    "visual_queries": [
+      "racing car engineering collage generic",
+      "race car rear wing airflow",
+      "slick racing tire close up",
+      "glowing racing brake disc",
+      "race car cockpit side view",
+      "automotive technology road car race car",
+      "racing car cutaway question"
+    ],
+    "description": "Cinco principios que convierten un automóvil de competición en un laboratorio sobre ruedas.",
+    "tags": ["automovilismo", "deportes", "autos", "ingeniería"]
   },
   {
-    "id": "el-minuto-regalado",
-    "title": "El reloj regalaba un minuto",
-    "category": "emocion",
+    "id": "estadios-ingenieria",
+    "title": "5 secretos de los estadios gigantes",
+    "category": "deportes",
+    "format": "curiosity_list",
     "scenes": [
-      "Un relojero construyó un reloj capaz de regalar un minuto extra cada día.",
-      "La gente lo usaba para dormir, terminar tareas o alcanzar el bus.",
-      "Él guardó sus minutos durante un año sin contarle a nadie para qué.",
-      "En su cumpleaños los utilizó todos juntos y pasó seis horas hablando con una vieja amiga.",
-      "Al terminar, comprendió que el tiempo ahorrado solo vale cuando se comparte.",
-      "¿Con quién usarías hoy un minuto extra?"
+      "Cinco soluciones escondidas permiten que un estadio reciba multitudes, sonido y césped en buenas condiciones.",
+      "Las graderías modernas usan pendientes calculadas para mejorar la visión sobre las personas sentadas delante.",
+      "Algunos techos emplean membranas ligeras capaces de cubrir grandes espacios con relativamente pocos soportes.",
+      "El drenaje bajo el césped evacua lluvia rápidamente para reducir charcos durante un partido.",
+      "La forma de ciertas cubiertas ayuda a reflejar el sonido de los aficionados hacia el interior.",
+      "Los accesos se dividen en múltiples rutas para distribuir grandes flujos de personas con mayor seguridad.",
+      "¿En qué estadio del mundo te gustaría vivir un partido?"
     ],
-    "description": "Un invento para ahorrar tiempo termina enseñando cómo gastarlo mejor.",
-    "tags": ["emocion", "tiempo", "amistad"]
+    "visual_queries": [
+      "modern sports stadium aerial night",
+      "stadium seating sightline illustration",
+      "lightweight stadium roof structure",
+      "football pitch drainage construction",
+      "stadium roof crowd acoustics",
+      "stadium crowd entrance circulation",
+      "sports fan dream stadium"
+    ],
+    "description": "Cinco ideas de arquitectura que hacen funcionar a los grandes estadios.",
+    "tags": ["estadios", "deportes", "arquitectura", "ingeniería"]
   },
   {
-    "id": "la-carta-del-bolsillo",
-    "title": "La carta apareció en su propio bolsillo",
-    "category": "emocion",
+    "id": "relojes-lujo",
+    "title": "5 secretos de los relojes de alta gama",
+    "category": "lujo",
+    "format": "curiosity_list",
     "scenes": [
-      "Antes de una entrevista importante, Elena encontró una carta dentro de su abrigo.",
-      "La letra era suya, pero no recordaba haber escrito esas palabras.",
-      "Decía: ya sobreviviste a todos los días en que pensaste que no podrías.",
-      "Elena respiró, entró y consiguió el trabajo. Guardó la carta durante años.",
-      "Mucho después, vio a una joven nerviosa usando ese mismo abrigo y puso la carta en su bolsillo.",
-      "¿Alguna vez una frase llegó justo cuando la necesitabas?"
+      "Cinco detalles explican por qué un reloj mecánico de alta gama es mucho más que un accesorio.",
+      "Un movimiento mecánico puede reunir cientos de piezas diminutas que trabajan sin batería electrónica.",
+      "Los rubíes sintéticos reducen la fricción y el desgaste en puntos específicos del mecanismo.",
+      "La decoración visible en muchos movimientos exige pulido, grabado y acabados realizados con enorme precisión.",
+      "Una complicación es cualquier función adicional a indicar horas, minutos y segundos.",
+      "Algunos mecanismos automáticos aprovechan el movimiento de la muñeca para dar cuerda al resorte principal.",
+      "¿Usarías un reloj mecánico o prefieres uno completamente digital?"
     ],
-    "description": "Una carta viaja de bolsillo en bolsillo para entregar valor a tiempo.",
-    "tags": ["emocion", "confianza", "mensaje"]
+    "visual_queries": [
+      "luxury mechanical watch macro generic",
+      "mechanical watch movement gears macro",
+      "watch movement ruby jewels macro",
+      "hand finished watch movement engraving",
+      "watch complications dial close up",
+      "automatic watch rotor movement",
+      "mechanical versus digital watch choice"
+    ],
+    "description": "Cinco detalles de ingeniería y artesanía dentro de los relojes mecánicos de alta gama.",
+    "tags": ["relojes", "lujo", "artesanía", "ingeniería"]
   },
   {
-    "id": "la-bateria-imposible",
-    "title": "Su teléfono marcó menos uno por ciento",
-    "category": "ciencia-ficcion",
+    "id": "autos-lujo",
+    "title": "5 detalles ocultos de los autos de lujo",
+    "category": "lujo",
+    "format": "curiosity_list",
     "scenes": [
-      "El teléfono de Sam no se apagó al llegar a cero. Mostró menos uno por ciento.",
-      "Con cada número negativo aparecía una fotografía tomada un minuto en el futuro.",
-      "En menos cinco vio su taza caer. La sostuvo antes de que ocurriera.",
-      "En menos diez apareció una foto del teléfono completamente cargado sobre la mesa.",
-      "Sam lo dejó allí. Diez minutos después, una versión mayor de él entró para recogerlo.",
-      "¿Le entregarías el teléfono a tu yo del futuro?"
+      "Cinco detalles distinguen a muchos automóviles de lujo sin depender solamente de velocidad o apariencia.",
+      "La pintura puede aplicarse en numerosas capas y pulirse repetidamente para conseguir una profundidad visual uniforme.",
+      "Algunos interiores seleccionan láminas de madera del mismo tronco para mantener dibujos simétricos.",
+      "El aislamiento combina vidrios laminados, sellos y materiales absorbentes para disminuir ruido y vibraciones.",
+      "Los asientos pueden integrar múltiples motores pequeños para ajustar soporte, postura, ventilación y masaje.",
+      "Muchas piezas decorativas se ensamblan y revisan manualmente antes de entrar al vehículo terminado.",
+      "¿Qué detalle valoras más en un automóvil de lujo?"
     ],
-    "description": "Una batería bajo cero convierte un teléfono en una ventana al futuro.",
-    "tags": ["ciencia ficcion", "telefono", "futuro"]
+    "visual_queries": [
+      "luxury car details collage generic",
+      "automotive paint polishing close up",
+      "bookmatched wood veneer car interior",
+      "laminated acoustic car glass illustration",
+      "luxury car seat controls interior",
+      "hand assembled car interior craftsmanship",
+      "luxury car preference question"
+    ],
+    "description": "Cinco ejemplos de precisión, comodidad y trabajo manual en automóviles de lujo.",
+    "tags": ["autos", "lujo", "diseño", "artesanía"]
   },
   {
-    "id": "el-taxi-de-los-recuerdos",
-    "title": "El taxi conocía un camino olvidado",
-    "category": "emocion",
+    "id": "gemas-lujo",
+    "title": "5 secretos fascinantes de las piedras preciosas",
+    "category": "lujo",
+    "format": "curiosity_list",
     "scenes": [
-      "El conductor preguntó a Rosa si quería la ruta rápida o la ruta que necesitaba.",
-      "Rosa eligió la segunda. El taxi cruzó calles que no visitaba desde niña.",
-      "Pasó frente a su escuela, la plaza de su primer trabajo y la casa de una amiga perdida.",
-      "Al llegar, Rosa preguntó cómo sabía tanto. El conductor señaló el taxímetro.",
-      "En vez de dinero, la pantalla contaba recuerdos. La tarifa decía: llamar a esa amiga.",
-      "¿Qué lugar debería incluir una ruta por tus recuerdos?"
+      "Cinco datos sobre gemas revelan que su belleza comienza mucho antes de llegar a una joyería.",
+      "El diamante y el grafito están formados por carbono, pero sus átomos se organizan de maneras diferentes.",
+      "El color de un rubí proviene principalmente de pequeñas cantidades de cromo dentro del mineral.",
+      "Zafiro y rubí pertenecen al mismo mineral, llamado corindón, pero presentan colores distintos.",
+      "Las inclusiones internas pueden ayudar a identificar el origen natural y la historia de formación de una gema.",
+      "El corte no cambia el material, pero controla cómo la luz entra, rebota y sale de la piedra.",
+      "¿Qué piedra preciosa elegirías para observar bajo un microscopio?"
     ],
-    "description": "Un taxi cobra su viaje con una acción pendiente, no con dinero.",
-    "tags": ["emocion", "recuerdos", "amistad"]
+    "visual_queries": [
+      "precious gemstones macro collage",
+      "diamond graphite carbon structure illustration",
+      "natural ruby gemstone macro",
+      "ruby sapphire corundum comparison",
+      "gemstone inclusions microscope",
+      "gemstone cutting light reflection illustration",
+      "gemologist microscope gemstones"
+    ],
+    "description": "Cinco datos de geología, color y tallado escondidos dentro de las gemas.",
+    "tags": ["gemas", "lujo", "geología", "joyas"]
   },
   {
-    "id": "el-buzon-del-ayer",
-    "title": "El buzón entregaba cartas al pasado",
-    "category": "fantasia",
+    "id": "palacios-lujo",
+    "title": "5 detalles increíbles de los grandes palacios",
+    "category": "lujo",
+    "format": "curiosity_list",
     "scenes": [
-      "En una calle sin salida, Bruno encontró un buzón con una placa: entregas al ayer.",
-      "Escribió a su versión más joven: no tengas miedo de equivocarte.",
-      "Al día siguiente recibió una respuesta con su antigua letra.",
-      "Decía: gracias, pero si evito todos mis errores, quizá nunca aprenda a escribirte esto.",
-      "Bruno sonrió y envió una última nota: entonces equivócate con valentía.",
-      "¿Qué consejo mandarías a tu versión de hace diez años?"
+      "Cinco detalles de los grandes palacios mezclan poder, ingeniería, arte y estrategias sorprendentes.",
+      "Los salones de espejos multiplicaban la luz de velas y exhibían una tecnología extremadamente costosa para su época.",
+      "Muchos jardines geométricos fueron diseñados para comunicar orden, control y dominio sobre la naturaleza.",
+      "Las grandes escaleras no solo conectaban pisos: también convertían cada llegada en una ceremonia visible.",
+      "Pasillos y puertas discretas permitían que el personal circulara sin interrumpir las actividades oficiales.",
+      "Fuentes monumentales requerían complejas redes hidráulicas mucho antes de las bombas eléctricas modernas.",
+      "¿Qué palacio del mundo te gustaría recorrer durante una noche?"
     ],
-    "description": "Una carta al pasado recibe una respuesta más sabia de lo esperado.",
-    "tags": ["fantasia", "pasado", "consejo"]
+    "visual_queries": [
+      "grand palace interiors collage",
+      "palace hall of mirrors chandeliers",
+      "geometric palace gardens aerial",
+      "grand palace staircase interior",
+      "hidden palace service corridor",
+      "historic palace fountain hydraulics",
+      "traveler dreaming of palace tour"
+    ],
+    "description": "Cinco decisiones de arquitectura que convertían los palacios en escenarios de poder y lujo.",
+    "tags": ["palacios", "lujo", "arquitectura", "historia"]
   },
   {
-    "id": "la-casa-que-aplaudia",
-    "title": "La casa aplaudía los pequeños logros",
-    "category": "humor",
+    "id": "hoteles-extraordinarios",
+    "title": "5 ideas sorprendentes de hoteles extraordinarios",
+    "category": "lujo",
+    "format": "curiosity_list",
     "scenes": [
-      "Cada vez que Iván terminaba una tarea pendiente, su casa emitía un pequeño aplauso.",
-      "Lavó una taza: aplausos. Ordenó un cajón: más aplausos. Respondió un correo: ovación.",
-      "Motivado, limpió todo el departamento y preparó una cena saludable.",
-      "Al sentarse, escuchó el aplauso más fuerte de todos sin haber hecho nada nuevo.",
-      "Una nota apareció en la pantalla: descansar también cuenta como una tarea importante.",
-      "¿Qué pequeño logro tuyo merece un aplauso hoy?"
+      "Cinco ideas convierten algunos hoteles en experiencias que comienzan mucho antes de entrar a la habitación.",
+      "Los hoteles de hielo deben reconstruir partes de sus estructuras cuando cambia la temporada y sube la temperatura.",
+      "Una habitación submarina necesita ventanas gruesas y geometrías capaces de distribuir la presión del agua.",
+      "Los hoteles históricos adaptan instalaciones modernas sin destruir los materiales y espacios protegidos del edificio.",
+      "En complejos remotos, el tratamiento y reutilización del agua puede ser tan importante como el diseño.",
+      "Algunas suites usan iluminación, sonido y aromas coordinados para transformar la percepción del espacio.",
+      "¿Dormirías bajo el mar, entre hielo o dentro de un palacio?"
     ],
-    "description": "Una casa inteligente recuerda que los pequeños avances también importan.",
-    "tags": ["humor", "motivacion", "hogar"]
+    "visual_queries": [
+      "extraordinary hotels collage travel",
+      "ice hotel interior blue light",
+      "underwater hotel room window",
+      "historic palace hotel restoration",
+      "remote eco resort water system",
+      "luxury suite ambient lighting",
+      "underwater ice palace hotel choice"
+    ],
+    "description": "Cinco desafíos de diseño detrás de hoteles que convierten una noche en experiencia.",
+    "tags": ["hoteles", "lujo", "viajes", "arquitectura"]
   },
   {
-    "id": "el-semáforo-azul",
-    "title": "El semáforo se puso azul",
-    "category": "ciencia-ficcion",
+    "id": "lujo-artesanal",
+    "title": "5 oficios detrás del verdadero lujo artesanal",
+    "category": "lujo",
+    "format": "curiosity_list",
     "scenes": [
-      "A medianoche, todos los semáforos de la avenida cambiaron a un color azul desconocido.",
-      "Los autos se detuvieron. Nadie sabía si avanzar o esperar.",
-      "Entonces las pantallas de la calle mostraron una frase: bajen y escuchen.",
-      "Por primera vez, la gente oyó el río que corría bajo el pavimento desde hacía cien años.",
-      "El azul duró un minuto. Al volver el verde, nadie arrancó inmediatamente.",
-      "¿Qué sonido de tu ciudad crees que todos han dejado de escuchar?"
+      "Cinco oficios muestran que el lujo artesanal depende sobre todo de paciencia, práctica y precisión.",
+      "La marquetería crea imágenes combinando pequeñas piezas de madera, metal, nácar u otros materiales.",
+      "El esmaltado al fuego exige aplicar capas finas y calentarlas repetidamente sin romper la superficie.",
+      "Un soplador de vidrio controla forma y grosor mientras el material permanece a temperaturas extremas.",
+      "El curtido y acabado del cuero transforma una piel natural en un material duradero y uniforme.",
+      "El grabado manual retira cantidades minúsculas de material para construir líneas, sombras y texturas.",
+      "¿Qué oficio artesanal te gustaría aprender durante un año?"
     ],
-    "description": "Un color nuevo detiene la ciudad para revelar algo que siempre estuvo allí.",
-    "tags": ["ciencia ficcion", "ciudad", "semaforo"]
+    "visual_queries": [
+      "luxury crafts artisans collage",
+      "wood marquetry artisan close up",
+      "enamel jewelry firing artisan",
+      "glassblower shaping molten glass",
+      "leather artisan workshop hands",
+      "hand engraving metal macro",
+      "person choosing traditional craft"
+    ],
+    "description": "Cinco técnicas donde el tiempo y la habilidad importan más que una etiqueta.",
+    "tags": ["lujo", "artesanía", "oficios", "diseño"]
   },
   {
-    "id": "la-maleta-ligera",
-    "title": "La maleta pesaba sus preocupaciones",
-    "category": "fantasia",
+    "id": "arquitectura-desafia-logica",
+    "title": "5 edificios que parecen desafiar la lógica",
+    "category": "tecnologia",
+    "format": "curiosity_list",
     "scenes": [
-      "La maleta de Ana se volvía más pesada cada vez que guardaba algo que realmente no necesitaba.",
-      "Dos zapatos pesaban poco. Un por si acaso pesaba cinco kilos.",
-      "Los miedos al viaje pesaban veinte y las opiniones ajenas, treinta más.",
-      "Ana sacó todo, respiró y guardó solamente una muda, un cuaderno y curiosidad.",
-      "La maleta quedó tan ligera que parecía querer caminar sola hacia la estación.",
-      "¿Qué preocupación sacarías hoy de tu propia maleta?"
+      "Cinco ideas de arquitectura hacen que enormes edificios parezcan flotar, doblarse o desafiar la gravedad.",
+      "Los voladizos transfieren su peso hacia soportes ocultos, permitiendo que una parte del edificio quede suspendida.",
+      "Los amortiguadores de masa reducen el movimiento de rascacielos cuando reciben viento o vibraciones.",
+      "Las fachadas dobles crean una cámara de aire que ayuda a controlar temperatura, ruido y ventilación.",
+      "Las estructuras reticuladas distribuyen cargas mediante redes de triángulos sorprendentemente ligeras.",
+      "Los edificios inclinados necesitan cimentaciones y contrapesos cuidadosamente calculados para conservar su estabilidad.",
+      "¿Qué tipo de edificio imposible te gustaría visitar?"
     ],
-    "description": "Una maleta mágica revela cuánto pesan las cosas que no se pueden tocar.",
-    "tags": ["fantasia", "viaje", "preocupaciones"]
+    "visual_queries": [
+      "futuristic architecture impossible buildings collage",
+      "modern building dramatic cantilever",
+      "skyscraper tuned mass damper illustration",
+      "double skin facade architecture",
+      "space frame roof triangles",
+      "leaning modern building engineering",
+      "traveler looking at impossible building"
+    ],
+    "description": "Cinco recursos de ingeniería que permiten construir edificios aparentemente imposibles.",
+    "tags": ["arquitectura", "ingeniería", "edificios", "tecnología"]
+  },
+  {
+    "id": "aviacion-secretos",
+    "title": "5 secretos de los aviones que ves al viajar",
+    "category": "tecnologia",
+    "format": "curiosity_list",
+    "scenes": [
+      "Cinco detalles visibles en un avión tienen explicaciones de seguridad, aerodinámica y comodidad.",
+      "Las puntas elevadas de algunas alas reducen remolinos y ayudan a mejorar la eficiencia aerodinámica.",
+      "Las ventanillas son redondeadas para distribuir mejor las tensiones que aparecen al presurizar la cabina.",
+      "Un pequeño orificio entre capas de la ventanilla ayuda a equilibrar presión y reducir condensación.",
+      "Las luces de navegación permiten reconocer desde lejos la orientación aproximada de una aeronave.",
+      "Las alas se flexionan durante el vuelo porque están diseñadas para soportar cargas sin permanecer rígidas.",
+      "¿Qué parte de un avión siempre te ha causado curiosidad?"
+    ],
+    "visual_queries": [
+      "airplane details aviation collage",
+      "aircraft winglet in flight",
+      "airplane rounded window close up",
+      "airplane window breather hole macro",
+      "aircraft navigation lights night",
+      "airplane wing flexing flight",
+      "air traveler looking through window"
+    ],
+    "description": "Cinco detalles cotidianos que revelan la ingeniería escondida dentro de un avión.",
+    "tags": ["aviones", "aviación", "tecnología", "viajes"]
+  },
+  {
+    "id": "internet-invisible",
+    "title": "5 secretos de internet que viajan bajo tus pies",
+    "category": "tecnologia",
+    "format": "curiosity_list",
+    "scenes": [
+      "Cinco datos explican cómo un mensaje cruza el planeta en segundos sin que veas el recorrido.",
+      "Gran parte del tráfico internacional viaja por cables de fibra óptica instalados sobre el fondo oceánico.",
+      "La fibra transporta información mediante pulsos de luz guiados por un núcleo transparente extremadamente delgado.",
+      "Los centros de datos usan sistemas de refrigeración para eliminar el calor producido por miles de equipos.",
+      "El sistema de nombres de dominio traduce direcciones fáciles de recordar en identificadores utilizados por redes.",
+      "La información suele dividirse en paquetes que pueden seguir rutas diferentes antes de reunirse nuevamente.",
+      "¿Imaginabas que internet dependía tanto de cables físicos?"
+    ],
+    "visual_queries": [
+      "global internet cables network collage",
+      "submarine fiber optic cable ocean floor",
+      "fiber optic light pulses macro",
+      "modern data center cooling aisle",
+      "domain name system diagram concept",
+      "internet data packets routes illustration",
+      "person surprised by underwater internet"
+    ],
+    "description": "Cinco piezas invisibles que permiten mover información alrededor del planeta.",
+    "tags": ["internet", "tecnología", "fibra óptica", "datos"]
+  },
+  {
+    "id": "misterios-arqueologicos",
+    "title": "5 misterios arqueológicos todavía fascinantes",
+    "category": "misterios",
+    "format": "curiosity_list",
+    "scenes": [
+      "Cinco hallazgos arqueológicos conservan preguntas abiertas incluso después de décadas de investigación científica.",
+      "Las líneas de Nazca forman figuras enormes que solo se comprenden completamente desde una gran altura.",
+      "El mecanismo de Anticitera usaba engranajes para representar ciclos astronómicos hace más de dos mil años.",
+      "Los moáis de Rapa Nui fueron movidos grandes distancias con recursos y técnicas todavía estudiadas.",
+      "La escritura de la civilización del Indo permanece sin una interpretación ampliamente aceptada.",
+      "Göbekli Tepe contiene grandes estructuras de piedra construidas antes de muchas ciudades agrícolas conocidas.",
+      "¿Cuál de estos misterios investigarías si fueras arqueólogo?"
+    ],
+    "visual_queries": [
+      "archaeological mysteries collage ancient",
+      "Nazca Lines Peru aerial",
+      "Antikythera mechanism gears museum",
+      "Easter Island moai landscape",
+      "Indus script ancient seals",
+      "Gobekli Tepe stone pillars",
+      "archaeologist choosing mystery"
+    ],
+    "description": "Cinco descubrimientos antiguos que todavía plantean preguntas fascinantes.",
+    "tags": ["arqueología", "misterios", "historia", "descubrimientos"]
   }
 ]
