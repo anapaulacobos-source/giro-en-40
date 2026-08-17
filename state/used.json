@@ -2,12 +2,17 @@
   "used_ids": [
     "mensaje-de-manana",
     "la-foto-extra",
-    "el-reloj-del-pueblo"
+    "el-reloj-del-pueblo",
+    "mundo-parece-inventado"
   ],
   "uploads": [
     {
       "story_id": "el-reloj-del-pueblo",
       "video_id": "oX0FvuUieY4"
+    },
+    {
+      "story_id": "mundo-parece-inventado",
+      "video_id": "KBQr3NBWVhY"
     }
   ]
 }
