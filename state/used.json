@@ -4,7 +4,8 @@
     "la-foto-extra",
     "el-reloj-del-pueblo",
     "mundo-parece-inventado",
-    "oceanos-secretos"
+    "oceanos-secretos",
+    "planeta-extremo"
   ],
   "uploads": [
     {
@@ -18,6 +19,10 @@
     {
       "story_id": "oceanos-secretos",
       "video_id": "Vzu_h4zk0dE"
+    },
+    {
+      "story_id": "planeta-extremo",
+      "video_id": "oouQKxvNtj8"
     }
   ]
 }
