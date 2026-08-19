@@ -5,7 +5,8 @@
     "el-reloj-del-pueblo",
     "mundo-parece-inventado",
     "oceanos-secretos",
-    "planeta-extremo"
+    "planeta-extremo",
+    "alimentos-sorpresa"
   ],
   "uploads": [
     {
@@ -23,6 +24,10 @@
     {
       "story_id": "planeta-extremo",
       "video_id": "oouQKxvNtj8"
+    },
+    {
+      "story_id": "alimentos-sorpresa",
+      "video_id": "KdYknjJ3qsw"
     }
   ]
 }
