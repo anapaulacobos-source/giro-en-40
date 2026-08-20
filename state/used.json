@@ -6,7 +6,8 @@
     "mundo-parece-inventado",
     "oceanos-secretos",
     "planeta-extremo",
-    "alimentos-sorpresa"
+    "alimentos-sorpresa",
+    "idiomas-curiosos"
   ],
   "uploads": [
     {
@@ -28,6 +29,10 @@
     {
       "story_id": "alimentos-sorpresa",
       "video_id": "KdYknjJ3qsw"
+    },
+    {
+      "story_id": "idiomas-curiosos",
+      "video_id": "OhhGWIkTvnc"
     }
   ]
 }
