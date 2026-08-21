@@ -7,7 +7,8 @@
     "oceanos-secretos",
     "planeta-extremo",
     "alimentos-sorpresa",
-    "idiomas-curiosos"
+    "idiomas-curiosos",
+    "espacio-ciencia-ficcion"
   ],
   "uploads": [
     {
@@ -33,6 +34,10 @@
     {
       "story_id": "idiomas-curiosos",
       "video_id": "OhhGWIkTvnc"
+    },
+    {
+      "story_id": "espacio-ciencia-ficcion",
+      "video_id": "jFUr-6JbYrM"
     }
   ]
 }
