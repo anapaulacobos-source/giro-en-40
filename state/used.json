@@ -8,7 +8,8 @@
     "planeta-extremo",
     "alimentos-sorpresa",
     "idiomas-curiosos",
-    "espacio-ciencia-ficcion"
+    "espacio-ciencia-ficcion",
+    "ciencia-cotidiana"
   ],
   "uploads": [
     {
@@ -38,6 +39,10 @@
     {
       "story_id": "espacio-ciencia-ficcion",
       "video_id": "jFUr-6JbYrM"
+    },
+    {
+      "story_id": "ciencia-cotidiana",
+      "video_id": "CACYDGZNJtE"
     }
   ]
 }
