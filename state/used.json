@@ -9,7 +9,8 @@
     "alimentos-sorpresa",
     "idiomas-curiosos",
     "espacio-ciencia-ficcion",
-    "ciencia-cotidiana"
+    "ciencia-cotidiana",
+    "cuerpo-humano"
   ],
   "uploads": [
     {
@@ -43,6 +44,10 @@
     {
       "story_id": "ciencia-cotidiana",
       "video_id": "CACYDGZNJtE"
+    },
+    {
+      "story_id": "cuerpo-humano",
+      "video_id": "-DejAt16tow"
     }
   ]
 }
