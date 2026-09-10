@@ -10,7 +10,8 @@
     "idiomas-curiosos",
     "espacio-ciencia-ficcion",
     "ciencia-cotidiana",
-    "cuerpo-humano"
+    "cuerpo-humano",
+    "inventos-inesperados"
   ],
   "uploads": [
     {
@@ -48,6 +49,10 @@
     {
       "story_id": "cuerpo-humano",
       "video_id": "-DejAt16tow"
+    },
+    {
+      "story_id": "inventos-inesperados",
+      "video_id": "GaKc2OY8_Po"
     }
   ]
 }
