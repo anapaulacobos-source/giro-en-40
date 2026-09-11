@@ -11,7 +11,8 @@
     "espacio-ciencia-ficcion",
     "ciencia-cotidiana",
     "cuerpo-humano",
-    "inventos-inesperados"
+    "inventos-inesperados",
+    "luz-color"
   ],
   "uploads": [
     {
@@ -53,6 +54,10 @@
     {
       "story_id": "inventos-inesperados",
       "video_id": "GaKc2OY8_Po"
+    },
+    {
+      "story_id": "luz-color",
+      "video_id": "V07MAB9XTvY"
     }
   ]
 }
