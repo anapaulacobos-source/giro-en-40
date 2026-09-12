@@ -12,7 +12,8 @@
     "ciencia-cotidiana",
     "cuerpo-humano",
     "inventos-inesperados",
-    "luz-color"
+    "luz-color",
+    "historia-tiempo"
   ],
   "uploads": [
     {
@@ -58,6 +59,10 @@
     {
       "story_id": "luz-color",
       "video_id": "V07MAB9XTvY"
+    },
+    {
+      "story_id": "historia-tiempo",
+      "video_id": "owfu8mQQSyQ"
     }
   ]
 }
