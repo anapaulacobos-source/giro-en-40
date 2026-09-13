@@ -13,7 +13,8 @@
     "cuerpo-humano",
     "inventos-inesperados",
     "luz-color",
-    "historia-tiempo"
+    "historia-tiempo",
+    "roma-antigua"
   ],
   "uploads": [
     {
@@ -63,6 +64,10 @@
     {
       "story_id": "historia-tiempo",
       "video_id": "owfu8mQQSyQ"
+    },
+    {
+      "story_id": "roma-antigua",
+      "video_id": "J878jDoO0mU"
     }
   ]
 }
