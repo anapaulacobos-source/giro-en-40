@@ -14,7 +14,8 @@
     "inventos-inesperados",
     "luz-color",
     "historia-tiempo",
-    "roma-antigua"
+    "roma-antigua",
+    "mitos-historicos"
   ],
   "uploads": [
     {
@@ -68,6 +69,10 @@
     {
       "story_id": "roma-antigua",
       "video_id": "J878jDoO0mU"
+    },
+    {
+      "story_id": "mitos-historicos",
+      "video_id": "p3q96jSU7Hw"
     }
   ]
 }
