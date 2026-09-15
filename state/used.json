@@ -15,7 +15,8 @@
     "luz-color",
     "historia-tiempo",
     "roma-antigua",
-    "mitos-historicos"
+    "mitos-historicos",
+    "civilizaciones-ingenio"
   ],
   "uploads": [
     {
@@ -73,6 +74,10 @@
     {
       "story_id": "mitos-historicos",
       "video_id": "p3q96jSU7Hw"
+    },
+    {
+      "story_id": "civilizaciones-ingenio",
+      "video_id": "sgI0DQagges"
     }
   ]
 }
