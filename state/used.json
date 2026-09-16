@@ -16,7 +16,8 @@
     "historia-tiempo",
     "roma-antigua",
     "mitos-historicos",
-    "civilizaciones-ingenio"
+    "civilizaciones-ingenio",
+    "animales-superpoderes"
   ],
   "uploads": [
     {
@@ -78,6 +79,10 @@
     {
       "story_id": "civilizaciones-ingenio",
       "video_id": "sgI0DQagges"
+    },
+    {
+      "story_id": "animales-superpoderes",
+      "video_id": "XdyAHyyJ_fM"
     }
   ]
 }
