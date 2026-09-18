@@ -18,7 +18,8 @@
     "mitos-historicos",
     "civilizaciones-ingenio",
     "animales-superpoderes",
-    "animales-arquitectos"
+    "animales-arquitectos",
+    "animales-comunicacion"
   ],
   "uploads": [
     {
@@ -88,6 +89,10 @@
     {
       "story_id": "animales-arquitectos",
       "video_id": "uBWR_lp8B24"
+    },
+    {
+      "story_id": "animales-comunicacion",
+      "video_id": "BRDfCxB3U1U"
     }
   ]
 }
