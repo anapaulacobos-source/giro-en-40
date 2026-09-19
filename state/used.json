@@ -19,7 +19,8 @@
     "civilizaciones-ingenio",
     "animales-superpoderes",
     "animales-arquitectos",
-    "animales-comunicacion"
+    "animales-comunicacion",
+    "animales-records-estables"
   ],
   "uploads": [
     {
@@ -93,6 +94,10 @@
     {
       "story_id": "animales-comunicacion",
       "video_id": "BRDfCxB3U1U"
+    },
+    {
+      "story_id": "animales-records-estables",
+      "video_id": "UvdR7ZQRkkY"
     }
   ]
 }
