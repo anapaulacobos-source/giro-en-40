@@ -20,7 +20,8 @@
     "animales-superpoderes",
     "animales-arquitectos",
     "animales-comunicacion",
-    "animales-records-estables"
+    "animales-records-estables",
+    "futbol-historia"
   ],
   "uploads": [
     {
@@ -98,6 +99,10 @@
     {
       "story_id": "animales-records-estables",
       "video_id": "UvdR7ZQRkkY"
+    },
+    {
+      "story_id": "futbol-historia",
+      "video_id": "mioNvn-PMsY"
     }
   ]
 }
