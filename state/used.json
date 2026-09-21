@@ -21,7 +21,8 @@
     "animales-arquitectos",
     "animales-comunicacion",
     "animales-records-estables",
-    "futbol-historia"
+    "futbol-historia",
+    "juegos-olimpicos"
   ],
   "uploads": [
     {
@@ -103,6 +104,10 @@
     {
       "story_id": "futbol-historia",
       "video_id": "mioNvn-PMsY"
+    },
+    {
+      "story_id": "juegos-olimpicos",
+      "video_id": "sNytzH4wQtc"
     }
   ]
 }
