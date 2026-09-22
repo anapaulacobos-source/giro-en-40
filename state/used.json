@@ -22,7 +22,8 @@
     "animales-comunicacion",
     "animales-records-estables",
     "futbol-historia",
-    "juegos-olimpicos"
+    "juegos-olimpicos",
+    "baloncesto-origen"
   ],
   "uploads": [
     {
@@ -108,6 +109,10 @@
     {
       "story_id": "juegos-olimpicos",
       "video_id": "sNytzH4wQtc"
+    },
+    {
+      "story_id": "baloncesto-origen",
+      "video_id": "pdWQamqUQ_g"
     }
   ]
 }
