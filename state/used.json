@@ -23,7 +23,8 @@
     "animales-records-estables",
     "futbol-historia",
     "juegos-olimpicos",
-    "baloncesto-origen"
+    "baloncesto-origen",
+    "tecnologia-deportiva"
   ],
   "uploads": [
     {
@@ -113,6 +114,10 @@
     {
       "story_id": "baloncesto-origen",
       "video_id": "pdWQamqUQ_g"
+    },
+    {
+      "story_id": "tecnologia-deportiva",
+      "video_id": "1iTAQExlo1Q"
     }
   ]
 }
