@@ -24,7 +24,8 @@
     "futbol-historia",
     "juegos-olimpicos",
     "baloncesto-origen",
-    "tecnologia-deportiva"
+    "tecnologia-deportiva",
+    "automovilismo-ingenieria"
   ],
   "uploads": [
     {
@@ -118,6 +119,10 @@
     {
       "story_id": "tecnologia-deportiva",
       "video_id": "1iTAQExlo1Q"
+    },
+    {
+      "story_id": "automovilismo-ingenieria",
+      "video_id": "0eaht4cFSkA"
     }
   ]
 }
