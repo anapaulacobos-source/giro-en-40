@@ -25,7 +25,8 @@
     "juegos-olimpicos",
     "baloncesto-origen",
     "tecnologia-deportiva",
-    "automovilismo-ingenieria"
+    "automovilismo-ingenieria",
+    "estadios-ingenieria"
   ],
   "uploads": [
     {
@@ -123,6 +124,10 @@
     {
       "story_id": "automovilismo-ingenieria",
       "video_id": "0eaht4cFSkA"
+    },
+    {
+      "story_id": "estadios-ingenieria",
+      "video_id": "sTk48AI6jBo"
     }
   ]
 }
