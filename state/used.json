@@ -26,7 +26,8 @@
     "baloncesto-origen",
     "tecnologia-deportiva",
     "automovilismo-ingenieria",
-    "estadios-ingenieria"
+    "estadios-ingenieria",
+    "relojes-lujo"
   ],
   "uploads": [
     {
@@ -128,6 +129,10 @@
     {
       "story_id": "estadios-ingenieria",
       "video_id": "sTk48AI6jBo"
+    },
+    {
+      "story_id": "relojes-lujo",
+      "video_id": "eZNPkKGjh5w"
     }
   ]
 }
