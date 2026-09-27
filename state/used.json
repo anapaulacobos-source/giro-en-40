@@ -27,7 +27,8 @@
     "tecnologia-deportiva",
     "automovilismo-ingenieria",
     "estadios-ingenieria",
-    "relojes-lujo"
+    "relojes-lujo",
+    "autos-lujo"
   ],
   "uploads": [
     {
@@ -133,6 +134,10 @@
     {
       "story_id": "relojes-lujo",
       "video_id": "eZNPkKGjh5w"
+    },
+    {
+      "story_id": "autos-lujo",
+      "video_id": "3pmXuNMNAlE"
     }
   ]
 }
