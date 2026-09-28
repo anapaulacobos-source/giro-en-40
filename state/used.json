@@ -28,7 +28,8 @@
     "automovilismo-ingenieria",
     "estadios-ingenieria",
     "relojes-lujo",
-    "autos-lujo"
+    "autos-lujo",
+    "gemas-lujo"
   ],
   "uploads": [
     {
@@ -138,6 +139,10 @@
     {
       "story_id": "autos-lujo",
       "video_id": "3pmXuNMNAlE"
+    },
+    {
+      "story_id": "gemas-lujo",
+      "video_id": "acQInJeIbCE"
     }
   ]
 }
