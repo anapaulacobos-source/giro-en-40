@@ -29,7 +29,8 @@
     "estadios-ingenieria",
     "relojes-lujo",
     "autos-lujo",
-    "gemas-lujo"
+    "gemas-lujo",
+    "palacios-lujo"
   ],
   "uploads": [
     {
@@ -143,6 +144,10 @@
     {
       "story_id": "gemas-lujo",
       "video_id": "acQInJeIbCE"
+    },
+    {
+      "story_id": "palacios-lujo",
+      "video_id": "zCS0uJCbqaY"
     }
   ]
 }
