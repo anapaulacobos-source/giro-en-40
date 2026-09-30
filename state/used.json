@@ -30,7 +30,8 @@
     "relojes-lujo",
     "autos-lujo",
     "gemas-lujo",
-    "palacios-lujo"
+    "palacios-lujo",
+    "hoteles-extraordinarios"
   ],
   "uploads": [
     {
@@ -148,6 +149,10 @@
     {
       "story_id": "palacios-lujo",
       "video_id": "zCS0uJCbqaY"
+    },
+    {
+      "story_id": "hoteles-extraordinarios",
+      "video_id": "j0VxZxO5lKI"
     }
   ]
 }
