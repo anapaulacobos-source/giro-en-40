@@ -31,7 +31,8 @@
     "autos-lujo",
     "gemas-lujo",
     "palacios-lujo",
-    "hoteles-extraordinarios"
+    "hoteles-extraordinarios",
+    "lujo-artesanal"
   ],
   "uploads": [
     {
@@ -153,6 +154,10 @@
     {
       "story_id": "hoteles-extraordinarios",
       "video_id": "j0VxZxO5lKI"
+    },
+    {
+      "story_id": "lujo-artesanal",
+      "video_id": "GZEpF7qbDvc"
     }
   ]
 }
