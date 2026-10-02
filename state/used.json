@@ -32,7 +32,8 @@
     "gemas-lujo",
     "palacios-lujo",
     "hoteles-extraordinarios",
-    "lujo-artesanal"
+    "lujo-artesanal",
+    "arquitectura-desafia-logica"
   ],
   "uploads": [
     {
@@ -158,6 +159,10 @@
     {
       "story_id": "lujo-artesanal",
       "video_id": "GZEpF7qbDvc"
+    },
+    {
+      "story_id": "arquitectura-desafia-logica",
+      "video_id": "P-RTg9BO3EE"
     }
   ]
 }
