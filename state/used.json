@@ -33,7 +33,8 @@
     "palacios-lujo",
     "hoteles-extraordinarios",
     "lujo-artesanal",
-    "arquitectura-desafia-logica"
+    "arquitectura-desafia-logica",
+    "aviacion-secretos"
   ],
   "uploads": [
     {
@@ -163,6 +164,10 @@
     {
       "story_id": "arquitectura-desafia-logica",
       "video_id": "P-RTg9BO3EE"
+    },
+    {
+      "story_id": "aviacion-secretos",
+      "video_id": "NUXu-vcgqWE"
     }
   ]
 }
