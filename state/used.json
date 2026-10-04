@@ -34,7 +34,8 @@
     "hoteles-extraordinarios",
     "lujo-artesanal",
     "arquitectura-desafia-logica",
-    "aviacion-secretos"
+    "aviacion-secretos",
+    "internet-invisible"
   ],
   "uploads": [
     {
@@ -168,6 +169,10 @@
     {
       "story_id": "aviacion-secretos",
       "video_id": "NUXu-vcgqWE"
+    },
+    {
+      "story_id": "internet-invisible",
+      "video_id": "e6WfWDblll8"
     }
   ]
 }
