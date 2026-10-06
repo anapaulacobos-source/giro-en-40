@@ -35,7 +35,8 @@
     "lujo-artesanal",
     "arquitectura-desafia-logica",
     "aviacion-secretos",
-    "internet-invisible"
+    "internet-invisible",
+    "misterios-arqueologicos"
   ],
   "uploads": [
     {
@@ -173,6 +174,10 @@
     {
       "story_id": "internet-invisible",
       "video_id": "e6WfWDblll8"
+    },
+    {
+      "story_id": "misterios-arqueologicos",
+      "video_id": "5zXk0SORkSY"
     }
   ]
 }
